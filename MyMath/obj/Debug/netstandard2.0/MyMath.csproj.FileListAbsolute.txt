@@ -1,0 +1,9 @@
+C:\SideWork\MyMath\bin\Debug\netstandard2.0\MyMath.deps.json
+C:\SideWork\MyMath\bin\Debug\netstandard2.0\MyMath.dll
+C:\SideWork\MyMath\bin\Debug\netstandard2.0\MyMath.pdb
+C:\SideWork\MyMath\obj\Debug\netstandard2.0\MyMath.csprojAssemblyReference.cache
+C:\SideWork\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.CoreCompileInputs.cache
+C:\SideWork\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfoInputs.cache
+C:\SideWork\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfo.cs
+C:\SideWork\MyMath\obj\Debug\netstandard2.0\MyMath.dll
+C:\SideWork\MyMath\obj\Debug\netstandard2.0\MyMath.pdb
