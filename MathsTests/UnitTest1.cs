@@ -39,5 +39,21 @@ namespace MathsTests
             double actualResult = rooter.SquareRoot(input);
             Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 100);
         }
+
+        [TestMethod]
+        public void RooterTestNegativeInputx()
+        {
+            Rooter rooter = new Rooter();
+            try
+            {
+                rooter.SquareRoot(-10);
+            }
+            catch (System.ArgumentOutOfRangeException)
+            {
+
+                return;
+            }
+            Assert.Fail();
+        }
     }
 }
