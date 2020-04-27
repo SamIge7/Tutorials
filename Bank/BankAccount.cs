@@ -40,7 +40,7 @@ namespace BankAccountNS
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            m_balance += amount; // intentionally incorrect code
+            m_balance -= amount; // intentionally incorrect code
         }
 
         public void Credit(double amount)
@@ -50,7 +50,7 @@ namespace BankAccountNS
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            m_balance += amount;
+            m_balance -= amount;
         }
 
         public static void Main()
