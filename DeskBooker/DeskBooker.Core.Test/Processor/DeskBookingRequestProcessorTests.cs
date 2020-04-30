@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 
 namespace DeskBooker.Core.Processor
 {
@@ -7,9 +8,17 @@ namespace DeskBooker.Core.Processor
         [Fact]
         public void ShouldReturnDeskBookingResultsWithRequestValues()
         {
+            var request = new DeskBookingRequest
+            {
+                FirstName = "Sam",
+                LastName = "Ige",
+                Email = "samige7@yahoo.co.uk",
+                Date = new DateTime(2020, 1, 28)
+            };
+
             var processor = new DeskBookingRequestProcessor();
 
-
+            processor.BookDesk()
         }
     }
 }
