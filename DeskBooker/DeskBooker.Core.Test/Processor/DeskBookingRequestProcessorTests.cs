@@ -18,7 +18,7 @@ namespace DeskBooker.Core.Processor
 
             var processor = new DeskBookingRequestProcessor();
 
-            processor.BookDesk()
+            DeskBookingResult result = processor.BookDesk(request);
         }
     }
 }
