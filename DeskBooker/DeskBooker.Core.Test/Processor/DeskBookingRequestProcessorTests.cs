@@ -8,6 +8,7 @@ namespace DeskBooker.Core.Processor
         [Fact]
         public void ShouldReturnDeskBookingResultsWithRequestValues()
         {
+            //Arrange
             var request = new DeskBookingRequest
             {
                 FirstName = "Sam",
@@ -18,7 +19,15 @@ namespace DeskBooker.Core.Processor
 
             var processor = new DeskBookingRequestProcessor();
 
+            //Act
             DeskBookingResult result = processor.BookDesk(request);
+
+            //Assert
+            Assert.NotNull(result);
+            Assert.Equal(request.FirstName, result.FirstName);
+            Assert.Equal(request.LastName, result.LastName);
+            Assert.Equal(request.Email, result.Email);
+            Assert.Equal(request.Date, result.Date);
         }
     }
 }
