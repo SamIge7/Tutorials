@@ -197,10 +197,10 @@ C:\SideWork\DeskBooker\DeskBooker.Web.Tests\bin\Debug\netcoreapp3.1\DeskBooker.W
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\bin\Debug\netcoreapp3.1\DeskBooker.Core.pdb
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\bin\Debug\netcoreapp3.1\DeskBooker.DataAccess.pdb
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.csprojAssemblyReference.cache
-C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.csproj.CoreCompileInputs.cache
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.AssemblyInfoInputs.cache
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.AssemblyInfo.cs
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.csproj.CopyComplete
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.dll
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.pdb
 C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.genruntimeconfig.cache
+C:\SideWork\DeskBooker\DeskBooker.Web.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Web.Tests.csproj.CoreCompileInputs.cache

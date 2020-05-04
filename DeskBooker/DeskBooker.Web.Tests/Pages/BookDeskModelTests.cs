@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Moq;
 using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace DeskBooker.Web.Pages
@@ -100,6 +101,35 @@ namespace DeskBooker.Web.Pages
 
             //Assert
             Assert.IsType(expectedActionResultType, actionResult);
+        }
+
+        [Fact]
+        public void ShouldRedirectToBookDeskConfirmationPage()
+        {
+            //Arrange
+            _deskBookingResult.Code = DeskBookingResultCode.Success;
+            _deskBookingResult.DeskBookingId = 7;
+            _deskBookingResult.FirstName = "Sam";
+            _deskBookingResult.Date = new DateTime(2020, 1, 28);
+
+            //Act
+            IActionResult actionResult = _bookDeskModel.OnPost();
+
+            //Assert
+            var redirectToPageResult = Assert.IsType<RedirectToPageResult>(actionResult);
+            Assert.Equal("BookDeskConfirmation", redirectToPageResult.PageName);
+
+            IDictionary<string, object> routeValues = redirectToPageResult.RouteValues;
+            Assert.Equal(3, routeValues.Count);
+
+            var deskBookingId = Assert.Contains("DeskBookingId", routeValues);
+            Assert.Equal(_deskBookingResult.DeskBookingId, deskBookingId);
+
+            var firstName = Assert.Contains("FirstName", routeValues);
+            Assert.Equal(_deskBookingResult.FirstName, firstName);
+
+            var date = Assert.Contains("Date", routeValues);
+            Assert.Equal(_deskBookingResult.Date, date);
         }
     }
 }

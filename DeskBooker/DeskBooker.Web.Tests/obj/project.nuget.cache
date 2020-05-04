@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xlGZgHCc+MyIELimVPr6Yz3DCgaXphWIeZbZrOcE/pqkpNYzXV6Yr0a6mVdO2/l3C8CmwrlAZ0uJJsrjU+WBWA==",
+  "dgSpecHash": "U4KPn5uRv2xQYAEXDH5cxs6xpJUfA2u6loYuIfooD4vmhqueW/MmLPt7UHNNmlF3Qn1b7ODozSq3sQRfr87TrA==",
   "success": true,
   "projectFilePath": "C:\\SideWork\\DeskBooker\\DeskBooker.Web.Tests\\DeskBooker.Web.Tests.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.net.test.sdk\\16.4.0\\microsoft.net.test.sdk.16.4.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "C:\\Users\\samue\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.4.0\\microsoft.testplatform.objectmodel.16.4.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.testplatform.testhost\\16.4.0\\microsoft.testplatform.testhost.16.4.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.0\\microsoft.visualstudio.web.codegeneration.3.1.0.nupkg.sha512",
@@ -126,7 +126,7 @@
     "C:\\Users\\samue\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\samue\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
