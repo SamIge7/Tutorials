@@ -154,3 +154,4 @@ C:\SideWork\ConfigurationsAndOptionsPluralsight\src\TennisBookings.Web\obj\Debug
 C:\SideWork\ConfigurationsAndOptionsPluralsight\src\TennisBookings.Web\obj\Debug\netcoreapp3.0\TennisBookings.Web.dll
 C:\SideWork\ConfigurationsAndOptionsPluralsight\src\TennisBookings.Web\obj\Debug\netcoreapp3.0\TennisBookings.Web.pdb
 C:\SideWork\ConfigurationsAndOptionsPluralsight\src\TennisBookings.Web\obj\Debug\netcoreapp3.0\TennisBookings.Web.genruntimeconfig.cache
+C:\SideWork\ConfigurationsAndOptionsPluralsight\src\TennisBookings.Web\bin\Debug\netcoreapp3.0\appsettings.Staging.json
