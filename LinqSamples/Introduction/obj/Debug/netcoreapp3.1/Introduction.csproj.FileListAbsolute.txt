@@ -1,0 +1,13 @@
+C:\SideWork\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.exe
+C:\SideWork\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.deps.json
+C:\SideWork\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.runtimeconfig.json
+C:\SideWork\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.runtimeconfig.dev.json
+C:\SideWork\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.dll
+C:\SideWork\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.pdb
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.csprojAssemblyReference.cache
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.AssemblyInfoInputs.cache
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.AssemblyInfo.cs
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.csproj.CoreCompileInputs.cache
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.dll
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.pdb
+C:\SideWork\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.genruntimeconfig.cache
