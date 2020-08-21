@@ -1,0 +1,13 @@
+C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.exe
+C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.deps.json
+C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.json
+C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.dev.json
+C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.dll
+C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.pdb
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.csprojAssemblyReference.cache
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfoInputs.cache
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfo.cs
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.csproj.CoreCompileInputs.cache
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.dll
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.pdb
+C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.genruntimeconfig.cache
