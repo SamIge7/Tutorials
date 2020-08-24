@@ -1,0 +1,13 @@
+C:\SideWork\LinqSamples\Queries\bin\Debug\netcoreapp3.1\Queries.exe
+C:\SideWork\LinqSamples\Queries\bin\Debug\netcoreapp3.1\Queries.deps.json
+C:\SideWork\LinqSamples\Queries\bin\Debug\netcoreapp3.1\Queries.runtimeconfig.json
+C:\SideWork\LinqSamples\Queries\bin\Debug\netcoreapp3.1\Queries.runtimeconfig.dev.json
+C:\SideWork\LinqSamples\Queries\bin\Debug\netcoreapp3.1\Queries.dll
+C:\SideWork\LinqSamples\Queries\bin\Debug\netcoreapp3.1\Queries.pdb
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.csprojAssemblyReference.cache
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.AssemblyInfoInputs.cache
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.AssemblyInfo.cs
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.csproj.CoreCompileInputs.cache
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.dll
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.pdb
+C:\SideWork\LinqSamples\Queries\obj\Debug\netcoreapp3.1\Queries.genruntimeconfig.cache
