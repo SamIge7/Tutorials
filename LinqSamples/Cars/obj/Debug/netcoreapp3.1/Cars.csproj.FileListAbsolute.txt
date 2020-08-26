@@ -12,3 +12,4 @@ C:\SideWork\LinqSamples\Cars\obj\Debug\netcoreapp3.1\Cars.csproj.CoreCompileInpu
 C:\SideWork\LinqSamples\Cars\obj\Debug\netcoreapp3.1\Cars.dll
 C:\SideWork\LinqSamples\Cars\obj\Debug\netcoreapp3.1\Cars.pdb
 C:\SideWork\LinqSamples\Cars\obj\Debug\netcoreapp3.1\Cars.genruntimeconfig.cache
+C:\SideWork\LinqSamples\Cars\bin\Debug\netcoreapp3.1\manufacturers.csv
