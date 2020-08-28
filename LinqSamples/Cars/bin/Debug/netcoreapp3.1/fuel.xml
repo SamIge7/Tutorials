@@ -1,0 +1,1208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cars xmlns:ex="http://pluralsight.com/cars/2016/ex" xmlns="http://pluralsight.com/cars/2016">
+  <ex:Car Manufacturer="ALFA ROMEO" Name="4C" CityFE="24" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="V12 Vantage S" CityFE="12" HighwayFE="18" CombinedFE="14" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="V8 Vantage" CityFE="14" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="V8 Vantage" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="V8 Vantage S" CityFE="14" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="V8 Vantage S" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="Vantage GT" CityFE="14" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="Vantage GT" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="Audi" Name="TT Roadster quattro" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="M4 GTS" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="Z4 sDrive28i" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="Z4 sDrive28i" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="Z4 sDrive35i" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="Z4 sDrive35is" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="CORVETTE" CityFE="13" HighwayFE="23" CombinedFE="16" />
+  <ex:Car Manufacturer="Chevrolet" Name="CORVETTE" CityFE="16" HighwayFE="29" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="CORVETTE" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="CORVETTE" CityFE="17" HighwayFE="29" CombinedFE="21" />
+  <ex:Car Manufacturer="Dodge" Name="Viper SRT" CityFE="12" HighwayFE="21" CombinedFE="15" />
+  <ex:Car Manufacturer="Ferrari" Name="488 GTB" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ferrari" Name="488 GTB" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ferrari" Name="F12" CityFE="11" HighwayFE="16" CombinedFE="13" />
+  <ex:Car Manufacturer="Ferrari" Name="F12" CityFE="12" HighwayFE="16" CombinedFE="13" />
+  <ex:Car Manufacturer="Ferrari" Name="F12 tdf" CityFE="12" HighwayFE="17" CombinedFE="13" />
+  <ex:Car Manufacturer="Ferrari" Name="F12 tdf" CityFE="11" HighwayFE="15" CombinedFE="12" />
+  <ex:Car Manufacturer="Ferrari" Name="F60 America" CityFE="12" HighwayFE="15" CombinedFE="13" />
+  <ex:Car Manufacturer="Ferrari" Name="F60 America" CityFE="11" HighwayFE="15" CombinedFE="13" />
+  <ex:Car Manufacturer="Honda" Name="CR-Z" CityFE="36" HighwayFE="39" CombinedFE="37" />
+  <ex:Car Manufacturer="Honda" Name="CR-Z" CityFE="31" HighwayFE="38" CombinedFE="34" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE Convertible" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE Convertible Manual" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE Coupe" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE Coupe Manual" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE R AWD Convertible" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE R AWD Coupe" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE R Convertible" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE S AWD Convertible" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE S AWD Coupe" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE S Convertible" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE S Convertible Manual" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE S Coupe" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Jaguar" Name="F-TYPE S Coupe Manual" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Lamborghini" Name="Aventador Coupe" CityFE="11" HighwayFE="18" CombinedFE="13" />
+  <ex:Car Manufacturer="Lamborghini" Name="Aventador Roadster" CityFE="10" HighwayFE="17" CombinedFE="12" />
+  <ex:Car Manufacturer="Lamborghini" Name="Huracan" CityFE="14" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Lamborghini" Name="Huracan Spyder" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="MAZDA" Name="MX-5" CityFE="27" HighwayFE="36" CombinedFE="30" />
+  <ex:Car Manufacturer="MAZDA" Name="MX-5" CityFE="27" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="McLaren" Name="570S Coupe" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="McLaren" Name="650S Coupe" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="McLaren" Name="650S Spider" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="McLaren" Name="675LT Coupe" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG GT S" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG SL 63" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG SL 65" CityFE="14" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG SLK 55" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="SL 400" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="SL 550" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="SLK 300" CityFE="25" HighwayFE="32" CombinedFE="28" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="SLK 350" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="Smart fortwo (COUPE)" CityFE="34" HighwayFE="39" CombinedFE="36" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="Smart fortwo (COUPE)" CityFE="32" HighwayFE="39" CombinedFE="35" />
+  <ex:Car Manufacturer="NISSAN" Name="370Z" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="NISSAN" Name="370Z" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="NISSAN" Name="370Z Roadster" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="NISSAN" Name="370Z Roadster" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Pagani Automobili S.p.A." Name="Huayra Coupe" CityFE="11" HighwayFE="17" CombinedFE="13" />
+  <ex:Car Manufacturer="Porsche" Name="911 GT3" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="Porsche" Name="911 GT3RS" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster GTS" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster GTS" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster S" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster S" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Porsche" Name="Boxster Spyder" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman GT4" CityFE="18" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman GTS" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman GTS" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman S" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Porsche" Name="Cayman S" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="DB9" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="Vanquish" CityFE="13" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="Ferrari" Name="California T" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Ferrari" Name="California T" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="FIAT" Name="500" CityFE="24" HighwayFE="32" CombinedFE="27" />
+  <ex:Car Manufacturer="FIAT" Name="500" CityFE="27" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="FIAT" Name="500" CityFE="28" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="FIAT" Name="500" CityFE="31" HighwayFE="40" CombinedFE="34" />
+  <ex:Car Manufacturer="FIAT" Name="500 Abarth" CityFE="24" HighwayFE="32" CombinedFE="27" />
+  <ex:Car Manufacturer="FIAT" Name="500 Abarth" CityFE="28" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Convertible" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Convertible" CityFE="27" HighwayFE="38" CombinedFE="31" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Convertible" CityFE="25" HighwayFE="34" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Convertible" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4 Cabriolet" CityFE="20" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4 Cabriolet" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4 GTS" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4 GTS" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4 GTS Cabriolet" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4 GTS Cabriolet" CityFE="18" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4S" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4S" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4S Cabriolet" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera 4S Cabriolet" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera Cabriolet" CityFE="21" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera Cabriolet" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera GTS" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera GTS" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera GTS Cabriolet" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera GTS Cabriolet" CityFE="18" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera S" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera S" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera S Cabriolet" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Carrera S Cabriolet" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Targa 4" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="911 Targa 4" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Targa 4 GTS" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Targa 4 GTS" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Targa 4S" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Targa 4S" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="911 Turbo" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="911 Turbo Cabriolet" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="911 Turbo S" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="911 Turbo S Cabriolet" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="SCION" Name="FR-S" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="SCION" Name="FR-S" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Subaru" Name="BRZ" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Subaru" Name="BRZ" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Aston Martin Lagonda Ltd" Name="Rapide S" CityFE="14" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Audi" Name="A3" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Audi" Name="A3 Cabriolet" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="Audi" Name="A3 Cabriolet quattro" CityFE="23" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="A3 quattro" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Audi" Name="A5 Cabriolet quattro" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Audi" Name="A5 quattro" CityFE="21" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Audi" Name="A5 quattro" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="S3" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="S5" CityFE="18" HighwayFE="28" CombinedFE="21" />
+  <ex:Car Manufacturer="Audi" Name="S5" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Audi" Name="S5 Cabriolet" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Audi" Name="TT Coupe quattro" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="TTS Coupe" CityFE="23" HighwayFE="27" CombinedFE="25" />
+  <ex:Car Manufacturer="Bentley" Name="Continental GT Convertible" CityFE="14" HighwayFE="24" CombinedFE="17" />
+  <ex:Car Manufacturer="Bentley" Name="Continental GT Convertible" CityFE="12" HighwayFE="20" CombinedFE="15" />
+  <ex:Car Manufacturer="BMW" Name="228i" CityFE="23" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="228i" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="228i Convertible" CityFE="23" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="228i xDrive" CityFE="23" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="228i xDrive Convertible" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="428i Convertible" CityFE="23" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="428i xDrive Convertible" CityFE="21" HighwayFE="33" CombinedFE="25" />
+  <ex:Car Manufacturer="BMW" Name="435i Convertible" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="435i xDrive Convertible" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="640i Convertible" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="640i Coupe" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="640i xDrive Convertible" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="640i xDrive Coupe" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="650i Convertible" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="650i Coupe" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="650i xDrive Convertible" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="BMW" Name="650i xDrive Coupe" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="M2" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="M2" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="BMW" Name="M235i" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="M235i" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="BMW" Name="M235i Convertible" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="M235i Convertible" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="BMW" Name="M235i xDrive" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="M235i xDrive Convertible" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="M4 Convertible" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="M4 Convertible" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="M6 Convertible" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="BMW" Name="M6 Convertible" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="BMW" Name="M6 Coupe" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="BMW" Name="M6 Coupe" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Buick" Name="CASCADA" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Chevrolet" Name="SPARK" CityFE="31" HighwayFE="41" CombinedFE="35" />
+  <ex:Car Manufacturer="Chevrolet" Name="SPARK" CityFE="30" HighwayFE="41" CombinedFE="34" />
+  <ex:Car Manufacturer="Ford" Name="Fiesta FWD" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Ford" Name="Fiesta FWD" CityFE="28" HighwayFE="36" CombinedFE="31" />
+  <ex:Car Manufacturer="Ford" Name="Fiesta SFE FWD" CityFE="31" HighwayFE="43" CombinedFE="36" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG" CityFE="21" HighwayFE="32" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG" CityFE="17" HighwayFE="28" CombinedFE="21" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG" CityFE="15" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG CONVERTIBLE" CityFE="20" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Ford" Name="MUSTANG CONVERTIBLE" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="SHELBY GT350 MUSTANG" CityFE="14" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Genesis Coupe" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Genesis Coupe" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="LEXUS" Name="RC 200t" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="LEXUS" Name="RC 300 AWD" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="LEXUS" Name="RC 350" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="LEXUS" Name="RC 350 AWD" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="LEXUS" Name="RC F" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="MASERATI" Name="GRANTURISMO" CityFE="13" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="MASERATI" Name="GRANTURISMO CONVERTIBLE" CityFE="13" HighwayFE="20" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 400 (convertible)" CityFE="20" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 400 (coupe)" CityFE="20" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 400 4MATIC (coupe)" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 550 (convertible)" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 550 (coupe)" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Mini" Name="MINI COOPER HARDTOP 2 DOOR" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Mini" Name="MINI COOPER HARDTOP 2 DOOR" CityFE="28" HighwayFE="39" CombinedFE="32" />
+  <ex:Car Manufacturer="Mini" Name="MINI COOPER HARDTOP 4 DOOR" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Mini" Name="MINI COOPER HARDTOP 4 DOOR" CityFE="29" HighwayFE="39" CombinedFE="33" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Hardtop 2 door" CityFE="26" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Hardtop 2 door" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Hardtop 4 door" CityFE="26" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Hardtop 4 door" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="MINI John Cooper Works Hardtop" CityFE="25" HighwayFE="31" CombinedFE="28" />
+  <ex:Car Manufacturer="Mini" Name="MINI John Cooper Works Hardtop" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="NISSAN" Name="GT-R" CityFE="16" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="Roush" Name="Roush Stage 3 Mustang" CityFE="13" HighwayFE="23" CombinedFE="16" />
+  <ex:Car Manufacturer="Roush" Name="Roush Stage 3 Mustang" CityFE="12" HighwayFE="23" CombinedFE="16" />
+  <ex:Car Manufacturer="SCION" Name="iA" CityFE="33" HighwayFE="42" CombinedFE="37" />
+  <ex:Car Manufacturer="SCION" Name="iA" CityFE="31" HighwayFE="41" CombinedFE="35" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle Convertible" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle Convertible" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle Convertible" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Volkswagen" Name="Eos" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Acura" Name="ILX" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Acura" Name="TLX 2WD" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="Acura" Name="TLX 2WD" CityFE="21" HighwayFE="34" CombinedFE="25" />
+  <ex:Car Manufacturer="Acura" Name="TLX 4WD" CityFE="21" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Audi" Name="A4" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Audi" Name="A4 quattro" CityFE="21" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Audi" Name="A4 quattro" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="Q3" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Audi" Name="Q3 quattro" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Audi" Name="S4" CityFE="18" HighwayFE="28" CombinedFE="21" />
+  <ex:Car Manufacturer="Audi" Name="S4" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Bentley" Name="Continental GT" CityFE="15" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Bentley" Name="Continental GT" CityFE="12" HighwayFE="21" CombinedFE="15" />
+  <ex:Car Manufacturer="BMW" Name="320i" CityFE="24" HighwayFE="36" CombinedFE="28" />
+  <ex:Car Manufacturer="BMW" Name="320i" CityFE="23" HighwayFE="36" CombinedFE="28" />
+  <ex:Car Manufacturer="BMW" Name="320i xDrive" CityFE="23" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="328d" CityFE="32" HighwayFE="42" CombinedFE="36" />
+  <ex:Car Manufacturer="BMW" Name="328d xDrive" CityFE="30" HighwayFE="40" CombinedFE="34" />
+  <ex:Car Manufacturer="BMW" Name="328i" CityFE="23" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="328i" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="328i xDrive" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="340i" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="340i" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="340i xDrive" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="340i xDrive" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="428i Coupe" CityFE="23" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="428i Coupe" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="428i Gran Coupe" CityFE="23" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="428i xDrive Coupe" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="428i xDrive Gran Coupe" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="435i Coupe" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="435i Coupe" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="435i Gran Coupe" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="435i xDrive Coupe" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="435i xDrive Coupe" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="BMW" Name="435i xDrive Gran Coupe" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="640i Gran Coupe" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="640i xDrive Gran Coupe" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="650i Gran Coupe" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="650i xDrive Gran Coupe" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="BMW" Name="Alpina B6 Gran Coupe xDrive" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="BMW" Name="M3" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="M3" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="M4 Coupe" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="M4 Coupe" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="M6 Gran Coupe" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="BMW" Name="M6 Gran Coupe" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Buick" Name="VERANO" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Buick" Name="VERANO" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="Buick" Name="VERANO" CityFE="21" HighwayFE="32" CombinedFE="25" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS" CityFE="22" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS AWD" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS AWD" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS-V" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Cadillac" Name="ATS-V" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Chevrolet" Name="CAMARO" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Chevrolet" Name="CAMARO" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Chevrolet" Name="CAMARO" CityFE="19" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Chevrolet" Name="CAMARO" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Chevrolet" Name="CAMARO" CityFE="17" HighwayFE="28" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="CAMARO" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE" CityFE="30" HighwayFE="42" CombinedFE="35" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE" CityFE="29" HighwayFE="41" CombinedFE="33" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE PREMIER" CityFE="30" HighwayFE="40" CombinedFE="34" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC" CityFE="29" HighwayFE="40" CombinedFE="33" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC" CityFE="26" HighwayFE="35" CombinedFE="30" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC RS" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC RS" CityFE="27" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="Ford" Name="Fiesta ST FWD" CityFE="26" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="Ford" Name="FOCUS FWD" CityFE="28" HighwayFE="40" CombinedFE="32" />
+  <ex:Car Manufacturer="Ford" Name="FOCUS FWD" CityFE="30" HighwayFE="42" CombinedFE="35" />
+  <ex:Car Manufacturer="Ford" Name="FOCUS FWD" CityFE="27" HighwayFE="40" CombinedFE="31" />
+  <ex:Car Manufacturer="Ford" Name="FOCUS FWD" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Ford" Name="FOCUS FWD" CityFE="26" HighwayFE="36" CombinedFE="30" />
+  <ex:Car Manufacturer="Ford" Name="Focus FWD FFV" CityFE="27" HighwayFE="40" CombinedFE="31" />
+  <ex:Car Manufacturer="Ford" Name="Focus FWD FFV" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Ford" Name="Focus FWD FFV" CityFE="26" HighwayFE="36" CombinedFE="30" />
+  <ex:Car Manufacturer="Honda" Name="CIVIC 2Dr" CityFE="31" HighwayFE="41" CombinedFE="35" />
+  <ex:Car Manufacturer="Honda" Name="CIVIC 2Dr" CityFE="30" HighwayFE="41" CombinedFE="34" />
+  <ex:Car Manufacturer="Honda" Name="CIVIC 2Dr" CityFE="26" HighwayFE="38" CombinedFE="31" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Accent" CityFE="26" HighwayFE="37" CombinedFE="30" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Accent" CityFE="27" HighwayFE="38" CombinedFE="31" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Veloster" CityFE="27" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Veloster" CityFE="28" HighwayFE="36" CombinedFE="31" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Veloster" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Veloster" CityFE="27" HighwayFE="35" CombinedFE="30" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50 HYBRID" CityFE="28" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50 HYBRID AWD" CityFE="27" HighwayFE="31" CombinedFE="28" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte Koup" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte Koup" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte Koup" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte Koup" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Rio" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Rio" CityFE="27" HighwayFE="38" CombinedFE="31" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Rio ECO" CityFE="28" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="LEXUS" Name="CT 200h" CityFE="43" HighwayFE="40" CombinedFE="42" />
+  <ex:Car Manufacturer="LEXUS" Name="GS F" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="LEXUS" Name="IS 200t" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="LEXUS" Name="IS 300 AWD" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="LEXUS" Name="IS 350" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="LEXUS" Name="IS 350 AWD" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="MAZDA" Name="CX-3 2WD" CityFE="29" HighwayFE="35" CombinedFE="31" />
+  <ex:Car Manufacturer="MAZDA" Name="CX-3 4WD" CityFE="27" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA 2" CityFE="33" HighwayFE="43" CombinedFE="37" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA 2" CityFE="31" HighwayFE="42" CombinedFE="35" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 4-Door" CityFE="30" HighwayFE="41" CombinedFE="34" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 4-Door" CityFE="29" HighwayFE="41" CombinedFE="33" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 4-Door" CityFE="29" HighwayFE="40" CombinedFE="33" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 4-Door" CityFE="28" HighwayFE="39" CombinedFE="32" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 4-Door" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG C 63" CityFE="18" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG C 63 S" CityFE="18" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG CLA 45 4MATIC" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG CLS 63 S 4MATIC" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG S 63 4MATIC (coupe)" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG S 65 (coupe)" CityFE="13" HighwayFE="20" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="C 300" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="C 300 4MATIC" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="C 450 AMG" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLA 250" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLA 250 4MATIC" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLA 250 4MATIC" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLS 400" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLS 400 4MATIC" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLS 550" CityFE="17" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="CLS 550 4MATIC" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="S 550 4MATIC (coupe)" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Countryman" CityFE="25" HighwayFE="30" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Countryman" CityFE="27" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Paceman" CityFE="25" HighwayFE="30" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Paceman" CityFE="27" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Countryman" CityFE="25" HighwayFE="32" CombinedFE="28" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Countryman" CityFE="26" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Countryman All4" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Countryman All4" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Paceman" CityFE="25" HighwayFE="32" CombinedFE="28" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Paceman" CityFE="26" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Paceman ALL4" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Paceman ALL4" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini JCW Countryman ALL4" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Mini" Name="Mini JCW Countryman ALL4" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini JCW Paceman ALL4" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Mini" Name="Mini JCW Paceman ALL4" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="LANCER" CityFE="27" HighwayFE="35" CombinedFE="30" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="LANCER" CityFE="24" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="LANCER" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="LANCER" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="LANCER 4WD" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="NISSAN" Name="VERSA" CityFE="26" HighwayFE="35" CombinedFE="30" />
+  <ex:Car Manufacturer="NISSAN" Name="VERSA" CityFE="31" HighwayFE="40" CombinedFE="35" />
+  <ex:Car Manufacturer="NISSAN" Name="VERSA" CityFE="27" HighwayFE="36" CombinedFE="30" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Dawn" CityFE="12" HighwayFE="19" CombinedFE="14" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Phantom Coupe" CityFE="11" HighwayFE="19" CombinedFE="14" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Phantom Drophead Coupe" CityFE="11" HighwayFE="19" CombinedFE="14" />
+  <ex:Car Manufacturer="SCION" Name="tC" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="SCION" Name="tC" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Subaru" Name="IMPREZA" CityFE="28" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Subaru" Name="IMPREZA" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Subaru" Name="WRX" CityFE="18" HighwayFE="24" CombinedFE="21" />
+  <ex:Car Manufacturer="Subaru" Name="WRX" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Subaru" Name="WRX" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="TOYOTA" Name="PRIUS c" CityFE="53" HighwayFE="46" CombinedFE="50" />
+  <ex:Car Manufacturer="TOYOTA" Name="YARIS" CityFE="30" HighwayFE="36" CombinedFE="32" />
+  <ex:Car Manufacturer="TOYOTA" Name="YARIS" CityFE="30" HighwayFE="37" CombinedFE="33" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Volkswagen" Name="Beetle Dune" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Volkswagen" Name="CC" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Volkswagen" Name="CC" CityFE="21" HighwayFE="32" CombinedFE="25" />
+  <ex:Car Manufacturer="Volkswagen" Name="CC 4Motion" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Volkswagen" Name="Golf" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Volkswagen" Name="Golf" CityFE="25" HighwayFE="37" CombinedFE="30" />
+  <ex:Car Manufacturer="Volkswagen" Name="Golf R" CityFE="23" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Volkswagen" Name="Golf R" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Volkswagen" Name="GTI" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Volkswagen" Name="GTI" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta" CityFE="28" HighwayFE="39" CombinedFE="32" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta" CityFE="28" HighwayFE="40" CombinedFE="33" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Volkswagen" Name="Jetta Hybrid" CityFE="42" HighwayFE="48" CombinedFE="44" />
+  <ex:Car Manufacturer="Volvo" Name="S60 AWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Volvo" Name="S60 AWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="S60 AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Volvo" Name="S60 CC AWD" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="S60 FWD" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Volvo" Name="S60 FWD" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Volvo" Name="S60 Inscription AWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="S60 Inscription FWD" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="Volvo" Name="S60 Polestar AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Acura" Name="RLX" CityFE="28" HighwayFE="32" CombinedFE="30" />
+  <ex:Car Manufacturer="Acura" Name="RLX" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="Audi" Name="A6" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="Audi" Name="A6 quattro" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="A6 quattro" CityFE="25" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Audi" Name="A6 quattro" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Audi" Name="A7 quattro" CityFE="25" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Audi" Name="A7 quattro" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Audi" Name="RS7" CityFE="15" HighwayFE="25" CombinedFE="18" />
+  <ex:Car Manufacturer="Audi" Name="S6" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Audi" Name="S7" CityFE="17" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Audi" Name="S8" CityFE="15" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Bentley" Name="Flying Spur" CityFE="14" HighwayFE="24" CombinedFE="17" />
+  <ex:Car Manufacturer="Bentley" Name="Flying Spur" CityFE="12" HighwayFE="20" CombinedFE="15" />
+  <ex:Car Manufacturer="Bentley" Name="Mulsanne" CityFE="11" HighwayFE="18" CombinedFE="13" />
+  <ex:Car Manufacturer="BMW" Name="528i" CityFE="23" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="BMW" Name="528i xDrive" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="535d" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="BMW" Name="535d xDrive" CityFE="26" HighwayFE="37" CombinedFE="30" />
+  <ex:Car Manufacturer="BMW" Name="535i" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="535i xDrive" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="550i" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="550i xDrive" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="ActiveHybrid 5" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="M5" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="BMW" Name="M5" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Buick" Name="LACROSSE" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Buick" Name="LACROSSE" CityFE="18" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Buick" Name="LACROSSE" CityFE="18" HighwayFE="28" CombinedFE="21" />
+  <ex:Car Manufacturer="Buick" Name="LACROSSE AWD" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Buick" Name="REGAL" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Buick" Name="REGAL" CityFE="20" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="Buick" Name="REGAL" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Buick" Name="REGAL" CityFE="19" HighwayFE="31" CombinedFE="23" />
+  <ex:Car Manufacturer="Buick" Name="REGAL AWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Cadillac" Name="CTS SEDAN" CityFE="21" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Cadillac" Name="CTS SEDAN" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Cadillac" Name="CTS SEDAN" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Cadillac" Name="CTS SEDAN AWD" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Cadillac" Name="CTS SEDAN AWD" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Cadillac" Name="CTS-V" CityFE="14" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE LIMITED" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE LIMITED" CityFE="26" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE LIMITED" CityFE="22" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE LIMITED" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE LIMITED ECO" CityFE="26" HighwayFE="39" CombinedFE="31" />
+  <ex:Car Manufacturer="Chevrolet" Name="CRUZE LIMITED ECO" CityFE="28" HighwayFE="42" CombinedFE="33" />
+  <ex:Car Manufacturer="Chevrolet" Name="Impala Bi-Fuel (CNG)" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="MALIBU" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Chevrolet" Name="MALIBU" CityFE="47" HighwayFE="46" CombinedFE="46" />
+  <ex:Car Manufacturer="Chevrolet" Name="MALIBU" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="Chevrolet" Name="MALIBU LIMITED" CityFE="24" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC 5 RS" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC 5 RS" CityFE="27" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="Chrysler" Name="200" CityFE="23" HighwayFE="36" CombinedFE="28" />
+  <ex:Car Manufacturer="Chrysler" Name="200" CityFE="23" HighwayFE="36" CombinedFE="28" />
+  <ex:Car Manufacturer="Chrysler" Name="200" CityFE="19" HighwayFE="32" CombinedFE="23" />
+  <ex:Car Manufacturer="Chrysler" Name="200 AWD" CityFE="18" HighwayFE="29" CombinedFE="22" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger" CityFE="19" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger" CityFE="15" HighwayFE="25" CombinedFE="18" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger" CityFE="14" HighwayFE="23" CombinedFE="17" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger SRT8" CityFE="13" HighwayFE="22" CombinedFE="16" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger SRT8" CityFE="13" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger SRT8" CityFE="15" HighwayFE="25" CombinedFE="18" />
+  <ex:Car Manufacturer="Dodge" Name="Challenger SRT8" CityFE="14" HighwayFE="23" CombinedFE="17" />
+  <ex:Car Manufacturer="Dodge" Name="Dart" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Dodge" Name="Dart" CityFE="24" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="Dodge" Name="Dart" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Dodge" Name="Dart" CityFE="23" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="Dodge" Name="Dart" CityFE="22" HighwayFE="35" CombinedFE="27" />
+  <ex:Car Manufacturer="Dodge" Name="Dart Aero" CityFE="28" HighwayFE="40" CombinedFE="32" />
+  <ex:Car Manufacturer="Dodge" Name="Dart Aero" CityFE="28" HighwayFE="41" CombinedFE="32" />
+  <ex:Car Manufacturer="Dodge" Name="Dart GT" CityFE="22" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Dodge" Name="Dart GT" CityFE="23" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="Ferrari" Name="FF" CityFE="11" HighwayFE="17" CombinedFE="13" />
+  <ex:Car Manufacturer="Ferrari" Name="FF" CityFE="11" HighwayFE="16" CombinedFE="13" />
+  <ex:Car Manufacturer="Ford" Name="FOCUS RS AWD" CityFE="19" HighwayFE="25" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="Focus ST FWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="FUSION AWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="FUSION FWD" CityFE="24" HighwayFE="36" CombinedFE="28" />
+  <ex:Car Manufacturer="Ford" Name="FUSION FWD" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="Ford" Name="FUSION FWD" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="Ford" Name="FUSION FWD" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="Ford" Name="FUSION HYBRID FWD" CityFE="44" HighwayFE="41" CombinedFE="42" />
+  <ex:Car Manufacturer="Honda" Name="ACCORD" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Honda" Name="ACCORD" CityFE="26" HighwayFE="35" CombinedFE="30" />
+  <ex:Car Manufacturer="Honda" Name="ACCORD" CityFE="23" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="Honda" Name="ACCORD" CityFE="21" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="Honda" Name="ACCORD" CityFE="21" HighwayFE="32" CombinedFE="25" />
+  <ex:Car Manufacturer="Honda" Name="ACCORD" CityFE="18" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Honda" Name="CIVIC 4Dr" CityFE="31" HighwayFE="42" CombinedFE="35" />
+  <ex:Car Manufacturer="Honda" Name="CIVIC 4Dr" CityFE="31" HighwayFE="41" CombinedFE="35" />
+  <ex:Car Manufacturer="Honda" Name="CIVIC 4Dr" CityFE="27" HighwayFE="40" CombinedFE="31" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra" CityFE="28" HighwayFE="38" CombinedFE="32" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra" CityFE="24" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra GT" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra GT" CityFE="24" HighwayFE="33" CombinedFE="27" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Elantra Limited" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata HYBRID" CityFE="39" HighwayFE="43" CombinedFE="41" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata HYBRID SE" CityFE="40" HighwayFE="44" CombinedFE="42" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50" CityFE="19" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50 AWD" CityFE="22" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50 AWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50S" CityFE="19" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50S AWD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50S AWD Red Sport" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="INFINITI" Name="Q50S Red Sport" CityFE="20" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="INFINITI" Name="Q70" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="INFINITI" Name="Q70" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="INFINITI" Name="Q70 AWD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="INFINITI" Name="Q70 AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="INFINITI" Name="Q70 HYBRID" CityFE="29" HighwayFE="34" CombinedFE="31" />
+  <ex:Car Manufacturer="Jaguar" Name="XF" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Jaguar" Name="XF AWD" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte" CityFE="26" HighwayFE="39" CombinedFE="31" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte" CityFE="25" HighwayFE="37" CombinedFE="30" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima HYBRID" CityFE="36" HighwayFE="40" CombinedFE="38" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima HYBRID EX" CityFE="35" HighwayFE="39" CombinedFE="37" />
+  <ex:Car Manufacturer="LEXUS" Name="ES 300h" CityFE="40" HighwayFE="39" CombinedFE="40" />
+  <ex:Car Manufacturer="LEXUS" Name="ES 350" CityFE="21" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="LEXUS" Name="GS 200t" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="LEXUS" Name="GS 200t F SPORT" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="LEXUS" Name="GS 350" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="LEXUS" Name="GS 350 AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="LEXUS" Name="GS 350 F SPORT" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="LEXUS" Name="GS 450h" CityFE="29" HighwayFE="34" CombinedFE="31" />
+  <ex:Car Manufacturer="LEXUS" Name="LS 460" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="LEXUS" Name="LS 460 AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="LEXUS" Name="LS 460 L" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="LEXUS" Name="LS 460 L AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="LEXUS" Name="LS 600h L" CityFE="19" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="Lincoln" Name="MKZ AWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Lincoln" Name="MKZ AWD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Lincoln" Name="MKZ FWD" CityFE="22" HighwayFE="33" CombinedFE="26" />
+  <ex:Car Manufacturer="Lincoln" Name="MKZ FWD" CityFE="18" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Lincoln" Name="MKZ HYBRID FWD" CityFE="41" HighwayFE="39" CombinedFE="40" />
+  <ex:Car Manufacturer="MASERATI" Name="Ghibli  S RWD" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="MASERATI" Name="Ghibli V6 Rear Wheel Drive (RWD)" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="MASERATI" Name="Ghibli V6 SQ4 AWD" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA 6" CityFE="28" HighwayFE="40" CombinedFE="32" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA 6" CityFE="26" HighwayFE="38" CombinedFE="31" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA 6" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 5-Door" CityFE="30" HighwayFE="40" CombinedFE="33" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 5-Door" CityFE="29" HighwayFE="40" CombinedFE="33" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 5-Door" CityFE="28" HighwayFE="39" CombinedFE="32" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 5-Door" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="MAZDA" Name="MAZDA3 5-Door" CityFE="26" HighwayFE="35" CombinedFE="29" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG E 63 4MATIC" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG E 63 S 4MATIC" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 250 BLUETEC" CityFE="28" HighwayFE="42" CombinedFE="33" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 250 BLUETEC 4MATIC" CityFE="27" HighwayFE="38" CombinedFE="31" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 350" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 350" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 350 4MATIC" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 350 4MATIC" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 400" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 400 4MATIC" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 550 4MATIC" CityFE="18" HighwayFE="24" CombinedFE="21" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Clubman" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper Clubman" CityFE="25" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Clubman" CityFE="24" HighwayFE="34" CombinedFE="27" />
+  <ex:Car Manufacturer="Mini" Name="Mini Cooper S Clubman" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="NISSAN" Name="ALTIMA" CityFE="27" HighwayFE="39" CombinedFE="31" />
+  <ex:Car Manufacturer="NISSAN" Name="ALTIMA 3.5" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="NISSAN" Name="ALTIMA SR" CityFE="26" HighwayFE="37" CombinedFE="30" />
+  <ex:Car Manufacturer="NISSAN" Name="MAXIMA" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="NISSAN" Name="SENTRA" CityFE="29" HighwayFE="38" CombinedFE="32" />
+  <ex:Car Manufacturer="NISSAN" Name="SENTRA" CityFE="27" HighwayFE="36" CombinedFE="30" />
+  <ex:Car Manufacturer="NISSAN" Name="SENTRA FE+" CityFE="30" HighwayFE="40" CombinedFE="34" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Wraith" CityFE="13" HighwayFE="21" CombinedFE="15" />
+  <ex:Car Manufacturer="SCION" Name="iM" CityFE="28" HighwayFE="37" CombinedFE="32" />
+  <ex:Car Manufacturer="SCION" Name="iM" CityFE="27" HighwayFE="36" CombinedFE="31" />
+  <ex:Car Manufacturer="Subaru" Name="LEGACY" CityFE="26" HighwayFE="36" CombinedFE="30" />
+  <ex:Car Manufacturer="Subaru" Name="LEGACY" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="TOYOTA" Name="AVALON" CityFE="21" HighwayFE="31" CombinedFE="24" />
+  <ex:Car Manufacturer="TOYOTA" Name="AVALON HYBRID" CityFE="40" HighwayFE="39" CombinedFE="40" />
+  <ex:Car Manufacturer="TOYOTA" Name="CAMRY" CityFE="25" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="TOYOTA" Name="CAMRY" CityFE="21" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="TOYOTA" Name="CAMRY HYBRID LE" CityFE="43" HighwayFE="39" CombinedFE="41" />
+  <ex:Car Manufacturer="TOYOTA" Name="CAMRY HYBRID XLE/SE" CityFE="40" HighwayFE="38" CombinedFE="40" />
+  <ex:Car Manufacturer="TOYOTA" Name="COROLLA" CityFE="27" HighwayFE="36" CombinedFE="31" />
+  <ex:Car Manufacturer="TOYOTA" Name="COROLLA" CityFE="29" HighwayFE="38" CombinedFE="32" />
+  <ex:Car Manufacturer="TOYOTA" Name="COROLLA" CityFE="29" HighwayFE="37" CombinedFE="32" />
+  <ex:Car Manufacturer="TOYOTA" Name="COROLLA" CityFE="28" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="TOYOTA" Name="COROLLA LE ECO" CityFE="30" HighwayFE="42" CombinedFE="35" />
+  <ex:Car Manufacturer="TOYOTA" Name="COROLLA LE ECO" CityFE="30" HighwayFE="40" CombinedFE="34" />
+  <ex:Car Manufacturer="TOYOTA" Name="PRIUS" CityFE="54" HighwayFE="50" CombinedFE="52" />
+  <ex:Car Manufacturer="TOYOTA" Name="PRIUS Eco" CityFE="58" HighwayFE="53" CombinedFE="56" />
+  <ex:Car Manufacturer="Volkswagen" Name="Passat" CityFE="25" HighwayFE="38" CombinedFE="29" />
+  <ex:Car Manufacturer="Volkswagen" Name="Passat" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="S80 FWD" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="Audi" Name="A8L" CityFE="24" HighwayFE="36" CombinedFE="28" />
+  <ex:Car Manufacturer="Audi" Name="A8L" CityFE="19" HighwayFE="29" CombinedFE="22" />
+  <ex:Car Manufacturer="Audi" Name="A8L" CityFE="18" HighwayFE="29" CombinedFE="22" />
+  <ex:Car Manufacturer="Audi" Name="A8L" CityFE="14" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="BMW" Name="328i xDrive Gran Turismo" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="335i xDrive Gran Turismo" CityFE="20" HighwayFE="30" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="535i Gran Turismo" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="BMW" Name="535i xDrive Gran Turismo" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="BMW" Name="740i" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="750i" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="750i xDrive" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="X1 xDrive28i" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Cadillac" Name="CT6" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Cadillac" Name="CT6 AWD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Cadillac" Name="CT6 AWD" CityFE="18" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Cadillac" Name="XTS" CityFE="18" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Cadillac" Name="XTS AWD" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Cadillac" Name="XTS AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="IMPALA" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Chevrolet" Name="IMPALA" CityFE="18" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Chevrolet" Name="IMPALA" CityFE="19" HighwayFE="29" CombinedFE="22" />
+  <ex:Car Manufacturer="Chevrolet" Name="IMPALA LIMITED" CityFE="18" HighwayFE="30" CombinedFE="22" />
+  <ex:Car Manufacturer="Chevrolet" Name="SS" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="Chevrolet" Name="SS" CityFE="14" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Chrysler" Name="300" CityFE="19" HighwayFE="31" CombinedFE="23" />
+  <ex:Car Manufacturer="Chrysler" Name="300" CityFE="19" HighwayFE="31" CombinedFE="23" />
+  <ex:Car Manufacturer="Chrysler" Name="300" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Chrysler" Name="300 AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Chrysler" Name="300 AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Dodge" Name="Charger" CityFE="19" HighwayFE="31" CombinedFE="23" />
+  <ex:Car Manufacturer="Dodge" Name="Charger" CityFE="19" HighwayFE="31" CombinedFE="23" />
+  <ex:Car Manufacturer="Dodge" Name="Charger" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="Dodge" Name="Charger" CityFE="15" HighwayFE="25" CombinedFE="18" />
+  <ex:Car Manufacturer="Dodge" Name="Charger AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Dodge" Name="Charger AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Dodge" Name="Charger SRT8" CityFE="13" HighwayFE="22" CombinedFE="16" />
+  <ex:Car Manufacturer="Dodge" Name="Charger SRT8" CityFE="15" HighwayFE="25" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="C-MAX Hybrid FWD" CityFE="42" HighwayFE="37" CombinedFE="40" />
+  <ex:Car Manufacturer="Ford" Name="Special Service Police FWD" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="TAURUS AWD" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="TAURUS AWD" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="TAURUS AWD FFV" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="TAURUS FWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Ford" Name="TAURUS FWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Ford" Name="TAURUS FWD FFV" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Azera" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Azera Limited" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Equus" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Genesis AWD" CityFE="16" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Genesis RWD" CityFE="18" HighwayFE="29" CombinedFE="22" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Genesis RWD" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata" CityFE="28" HighwayFE="38" CombinedFE="32" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata" CityFE="23" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata" CityFE="25" HighwayFE="38" CombinedFE="30" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata Limited" CityFE="21" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Sonata SPORT/LIMITED" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Jaguar" Name="XJ" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Jaguar" Name="XJ" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Jaguar" Name="XJ AWD" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Jaguar" Name="XJL" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Jaguar" Name="XJL" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Jaguar" Name="XJL AWD" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Cadenza" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte 5" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte 5" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Forte 5" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="K900" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="K900" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima" CityFE="28" HighwayFE="39" CombinedFE="32" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima" CityFE="22" HighwayFE="32" CombinedFE="25" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima FE" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Optima FE" CityFE="25" HighwayFE="37" CombinedFE="30" />
+  <ex:Car Manufacturer="Lincoln" Name="MKS AWD" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Lincoln" Name="MKS AWD" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Lincoln" Name="MKS FWD" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="MASERATI" Name="QUATTROPORTE GTS" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="MASERATI" Name="QUATTROPORTE S" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="MASERATI" Name="QUATTROPORTE SQ4 V6" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG S 63 4MATIC" CityFE="15" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG S 65" CityFE="13" HighwayFE="20" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="Maybach S 600" CityFE="13" HighwayFE="20" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="S 550" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="S 550 4MATIC" CityFE="16" HighwayFE="26" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="S 600" CityFE="14" HighwayFE="21" CombinedFE="16" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera" CityFE="18" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera 4" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera 4S" CityFE="17" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera 4S Executive" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera GTS" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera S" CityFE="17" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera Turbo" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera Turbo Executive" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera Turbo S" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Porsche" Name="Panamera Turbo S Executive" CityFE="15" HighwayFE="24" CombinedFE="18" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Ghost" CityFE="13" HighwayFE="21" CombinedFE="15" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Ghost EWB" CityFE="13" HighwayFE="21" CombinedFE="15" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Phantom" CityFE="11" HighwayFE="19" CombinedFE="14" />
+  <ex:Car Manufacturer="Rolls-Royce Motor Cars Limited" Name="Phantom EWB" CityFE="11" HighwayFE="19" CombinedFE="14" />
+  <ex:Car Manufacturer="Audi" Name="allroad quattro" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="328d xDrive Sports Wagon" CityFE="30" HighwayFE="40" CombinedFE="34" />
+  <ex:Car Manufacturer="BMW" Name="328i xDrive Sports Wagon" CityFE="22" HighwayFE="34" CombinedFE="26" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC 5" CityFE="27" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC 5" CityFE="29" HighwayFE="40" CombinedFE="33" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC 5" CityFE="24" HighwayFE="35" CombinedFE="28" />
+  <ex:Car Manufacturer="Chevrolet" Name="SONIC 5" CityFE="26" HighwayFE="35" CombinedFE="30" />
+  <ex:Car Manufacturer="FIAT" Name="500L" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="FIAT" Name="500L" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Honda" Name="FIT" CityFE="33" HighwayFE="41" CombinedFE="36" />
+  <ex:Car Manufacturer="Honda" Name="FIT" CityFE="32" HighwayFE="38" CombinedFE="35" />
+  <ex:Car Manufacturer="Honda" Name="FIT" CityFE="29" HighwayFE="37" CombinedFE="32" />
+  <ex:Car Manufacturer="INFINITI" Name="QX50" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="INFINITI" Name="QX50 AWD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Soul" CityFE="24" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Soul" CityFE="24" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Soul" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Soul ECO dynamics" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="NISSAN" Name="JUKE" CityFE="28" HighwayFE="32" CombinedFE="30" />
+  <ex:Car Manufacturer="NISSAN" Name="JUKE" CityFE="28" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="NISSAN" Name="JUKE AWD" CityFE="26" HighwayFE="31" CombinedFE="28" />
+  <ex:Car Manufacturer="NISSAN" Name="JUKE NISMO RS" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="NISSAN" Name="JUKE NISMO RS AWD" CityFE="25" HighwayFE="29" CombinedFE="27" />
+  <ex:Car Manufacturer="Subaru" Name="IMPREZA SPORT" CityFE="27" HighwayFE="36" CombinedFE="31" />
+  <ex:Car Manufacturer="Subaru" Name="IMPREZA SPORT" CityFE="24" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Subaru" Name="IMPREZA WAGON" CityFE="28" HighwayFE="37" CombinedFE="31" />
+  <ex:Car Manufacturer="Subaru" Name="IMPREZA WAGON" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Volkswagen" Name="Golf SportWagen" CityFE="25" HighwayFE="35" CombinedFE="29" />
+  <ex:Car Manufacturer="Volkswagen" Name="Golf SportWagen" CityFE="25" HighwayFE="36" CombinedFE="29" />
+  <ex:Car Manufacturer="Volvo" Name="V60 AWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Volvo" Name="V60 AWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="V60 AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Volvo" Name="V60 FWD" CityFE="25" HighwayFE="37" CombinedFE="29" />
+  <ex:Car Manufacturer="Volvo" Name="V60 Polestar AWD" CityFE="18" HighwayFE="27" CombinedFE="21" />
+  <ex:Car Manufacturer="Volvo" Name="V60CC AWD" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG E 63 S 4MATIC (stat. wagon)" CityFE="15" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG GLA 45 4MATIC" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="E 350 4Matic (Wagon)" CityFE="20" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLA 250" CityFE="25" HighwayFE="35" CombinedFE="29" />
+  <ex:Car Manufacturer="NISSAN" Name="MURANO AWD" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="NISSAN" Name="MURANO FWD" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="NISSAN" Name="MURANO Hybrid AWD" CityFE="26" HighwayFE="30" CombinedFE="28" />
+  <ex:Car Manufacturer="NISSAN" Name="MURANO Hybrid FWD" CityFE="28" HighwayFE="31" CombinedFE="29" />
+  <ex:Car Manufacturer="TOYOTA" Name="PRIUS v" CityFE="44" HighwayFE="40" CombinedFE="42" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 2WD" CityFE="20" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 2WD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 2WD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 2WD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 2WD" CityFE="20" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 2WD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 2WD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 2WD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="NISSAN" Name="FRONTIER 2WD" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="NISSAN" Name="FRONTIER 2WD" CityFE="19" HighwayFE="23" CombinedFE="21" />
+  <ex:Car Manufacturer="NISSAN" Name="FRONTIER 2WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="NISSAN" Name="FRONTIER 2WD" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="TOYOTA" Name="TACOMA 2WD" CityFE="19" HighwayFE="23" CombinedFE="21" />
+  <ex:Car Manufacturer="TOYOTA" Name="TACOMA 2WD" CityFE="19" HighwayFE="24" CombinedFE="21" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 4WD" CityFE="19" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 4WD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO 4WD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 4WD" CityFE="19" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 4WD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="GMC" Name="CANYON 4WD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="NISSAN" Name="FRONTIER 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="NISSAN" Name="FRONTIER 4WD" CityFE="16" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="TOYOTA" Name="TACOMA 4WD" CityFE="19" HighwayFE="22" CombinedFE="20" />
+  <ex:Car Manufacturer="TOYOTA" Name="TACOMA 4WD" CityFE="19" HighwayFE="21" CombinedFE="20" />
+  <ex:Car Manufacturer="TOYOTA" Name="TACOMA 4WD" CityFE="18" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="TOYOTA" Name="TACOMA 4WD" CityFE="17" HighwayFE="21" CombinedFE="19" />
+  <ex:Car Manufacturer="TOYOTA" Name="Tacoma 4WD Double Cab" CityFE="17" HighwayFE="20" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="F150 2.7L 2WD GVWR&gt;6649 LBS PAYLOAD PACKAGE" CityFE="18" HighwayFE="24" CombinedFE="21" />
+  <ex:Car Manufacturer="Ford" Name="F150 2WD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="F150 2WD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="F150 2WD FFV" CityFE="18" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="F150 2WD FFV" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="F150 3.5L 2WD GVWR&gt;7599 LBS PAYLOAD PACKAGE" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="F150 5.0L 2WD FFV GVWR&gt;7599 LBS PAYLOAD PACKAGE" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X2" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X2" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X2" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X2" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="RAM" Name="1500 HFE 4X2" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="RAM" Name="1500 HFE 4X2" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Roush" Name="F150 Pickup 2WD" CityFE="12" HighwayFE="15" CombinedFE="13" />
+  <ex:Car Manufacturer="TOYOTA" Name="TUNDRA 2WD" CityFE="15" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="TOYOTA" Name="TUNDRA 2WD" CityFE="13" HighwayFE="18" CombinedFE="15" />
+  <ex:Car Manufacturer="TOYOTA" Name="TUNDRA 2WD FFV" CityFE="13" HighwayFE="18" CombinedFE="15" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD" CityFE="16" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="F150 2.7L 4WD GVWR&gt;6799 LBS PAYLOAD PACKAGE" CityFE="18" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="F150 3.5L 4WD GVWR&gt;7599 LBS PAYLOAD PACKAGE" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="F150 4WD" CityFE="18" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="F150 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="F150 4WD FFV" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="F150 4WD FFV" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="F150 5.0L 4WD FFV GVWR&gt;7599 LBS PAYLOAD PACKAGE" CityFE="14" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD" CityFE="16" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X4" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X4" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X4" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="RAM" Name="1500 4X4" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Roush" Name="F150 Pickup 4WD" CityFE="12" HighwayFE="15" CombinedFE="13" />
+  <ex:Car Manufacturer="TOYOTA" Name="TUNDRA 4WD" CityFE="14" HighwayFE="18" CombinedFE="16" />
+  <ex:Car Manufacturer="TOYOTA" Name="TUNDRA 4WD" CityFE="13" HighwayFE="17" CombinedFE="15" />
+  <ex:Car Manufacturer="TOYOTA" Name="TUNDRA 4WD FFV" CityFE="13" HighwayFE="17" CombinedFE="15" />
+  <ex:Car Manufacturer="Chevrolet" Name="G2500 EXPRESS 2WD PASS MDPV" CityFE="11" HighwayFE="16" CombinedFE="13" />
+  <ex:Car Manufacturer="Chevrolet" Name="G3500 EXPRESS 2WD PASS MDPV" CityFE="11" HighwayFE="16" CombinedFE="12" />
+  <ex:Car Manufacturer="Ford" Name="Transit T150 Wagon" CityFE="15" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="Ford" Name="Transit T150 Wagon FFV" CityFE="14" HighwayFE="18" CombinedFE="16" />
+  <ex:Car Manufacturer="GMC" Name="G2500 SAVANA 2WD PASS MDPV" CityFE="11" HighwayFE="16" CombinedFE="13" />
+  <ex:Car Manufacturer="GMC" Name="G3500 SAVANA 2WD PASS MDPV" CityFE="11" HighwayFE="16" CombinedFE="12" />
+  <ex:Car Manufacturer="Cadillac" Name="XTS HEARSE" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Cadillac" Name="XTS LIMO" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="CHEVROLET" Name="City Express Cargo Van" CityFE="24" HighwayFE="26" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="Transit Connect Van 2WD" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="Transit Connect Van 2WD" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Ford" Name="TRANSIT CONNECT VAN FFV" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Ford" Name="TRANSIT CONNECT WAGON FFV" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="TRANSIT CONNECT WAGON FWD" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="TRANSIT CONNECT WAGON FWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="TRANSIT CONNECT WAGON LWB FFV" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="Transit Connect Wagon LWB FWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Lincoln" Name="MKT LIVERY FWD" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="Metris (Cargo Van)" CityFE="21" HighwayFE="24" CombinedFE="22" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="Metris (Passenger Van)" CityFE="20" HighwayFE="23" CombinedFE="22" />
+  <ex:Car Manufacturer="NISSAN" Name="NV200 Cargo Van" CityFE="24" HighwayFE="26" CombinedFE="25" />
+  <ex:Car Manufacturer="NISSAN" Name="NV200 NYC Taxi" CityFE="23" HighwayFE="26" CombinedFE="24" />
+  <ex:Car Manufacturer="RAM" Name="Promaster City" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Lincoln" Name="MKT LIVERY AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="C15 SILVERADO 2WD CAB CHASSIS" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="Chevrolet" Name="COLORADO CAB CHASSIS 2WD" CityFE="15" HighwayFE="17" CombinedFE="16" />
+  <ex:Car Manufacturer="Chevrolet" Name="K15 SILVERADO 4WD CAB CHASSIS" CityFE="15" HighwayFE="19" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="C15 SIERRA 2WD CAB CHASSIS" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="CANYON CAB CHASSIS 2WD" CityFE="15" HighwayFE="17" CombinedFE="16" />
+  <ex:Car Manufacturer="GMC" Name="K15 SIERRA 4WD CAB CHASSIS" CityFE="15" HighwayFE="19" CombinedFE="17" />
+  <ex:Car Manufacturer="Chrysler" Name="Town &amp; Country" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Chrysler" Name="Town &amp; Country" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Dodge" Name="Grand Caravan" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Dodge" Name="Grand Caravan" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Honda" Name="ODYSSEY 2WD" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sedona" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sedona SX" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sedona SXL" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="NISSAN" Name="QUEST" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="TOYOTA" Name="SIENNA" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="TOYOTA" Name="SIENNA AWD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Acura" Name="MDX 2WD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Acura" Name="MDX 2WD" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Acura" Name="RDX 2WD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="X3 sDrive 28i" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="Buick" Name="ENCORE" CityFE="28" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="Buick" Name="ENCORE" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Chevrolet" Name="EQUINOX FWD" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Chevrolet" Name="EQUINOX FWD" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Chevrolet" Name="EQUINOX FWD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Chevrolet" Name="TRAX" CityFE="26" HighwayFE="34" CombinedFE="29" />
+  <ex:Car Manufacturer="Dodge" Name="Journey" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Dodge" Name="Journey" CityFE="17" HighwayFE="25" CombinedFE="19" />
+  <ex:Car Manufacturer="FIAT" Name="500X" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="FIAT" Name="500X" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="EDGE FWD" CityFE="20" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Ford" Name="EDGE FWD" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Ford" Name="EDGE FWD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Ford" Name="ESCAPE FWD" CityFE="23" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="Ford" Name="ESCAPE FWD" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="ESCAPE FWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="GMC" Name="TERRAIN FWD" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="GMC" Name="TERRAIN FWD" CityFE="22" HighwayFE="32" CombinedFE="26" />
+  <ex:Car Manufacturer="GMC" Name="TERRAIN FWD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Honda" Name="CR-V 2WD" CityFE="26" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="Honda" Name="HR-V 2WD" CityFE="28" HighwayFE="35" CombinedFE="31" />
+  <ex:Car Manufacturer="Honda" Name="HR-V 2WD" CityFE="28" HighwayFE="35" CombinedFE="31" />
+  <ex:Car Manufacturer="Honda" Name="HR-V 2WD" CityFE="25" HighwayFE="34" CombinedFE="28" />
+  <ex:Car Manufacturer="Honda" Name="PILOT 2WD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Honda" Name="PILOT 2WD" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe FWD" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Sport FWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Sport FWD" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Sport ULTIMATE FWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Ultimate FWD" CityFE="17" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Tucson Eco FWD" CityFE="26" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Tucson FWD" CityFE="25" HighwayFE="30" CombinedFE="27" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Tucson FWD" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="INFINITI" Name="QX60 FWD" CityFE="21" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="INFINITI" Name="QX70 RWD" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee FWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee FWD" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee FWD" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Compass FWD" CityFE="22" HighwayFE="26" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Compass FWD" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Jeep" Name="Compass FWD" CityFE="21" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Jeep" Name="Compass FWD" CityFE="23" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot FWD" CityFE="22" HighwayFE="26" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot FWD" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot FWD" CityFE="21" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot FWD" CityFE="23" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Jeep" Name="Renegade 4x2" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Jeep" Name="Renegade 4x2" CityFE="22" HighwayFE="31" CombinedFE="25" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento FWD" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento FWD" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento FWD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sportage FWD" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sportage SX FWD" CityFE="20" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="LEXUS" Name="NX 200t" CityFE="22" HighwayFE="28" CombinedFE="25" />
+  <ex:Car Manufacturer="LEXUS" Name="NX 300h" CityFE="35" HighwayFE="31" CombinedFE="33" />
+  <ex:Car Manufacturer="LEXUS" Name="RX 350" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="LEXUS" Name="RX 450h" CityFE="31" HighwayFE="30" CombinedFE="30" />
+  <ex:Car Manufacturer="Lincoln" Name="MKC  FWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Lincoln" Name="MKX FWD" CityFE="17" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Lincoln" Name="MKX FWD" CityFE="17" HighwayFE="26" CombinedFE="20" />
+  <ex:Car Manufacturer="MAZDA" Name="CX-5 2WD" CityFE="26" HighwayFE="35" CombinedFE="29" />
+  <ex:Car Manufacturer="MAZDA" Name="CX-5 2WD" CityFE="26" HighwayFE="33" CombinedFE="29" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLC 300" CityFE="22" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER 2WD" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER SPORT 2WD" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER SPORT 2WD" CityFE="23" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER SPORT 2WD" CityFE="23" HighwayFE="28" CombinedFE="25" />
+  <ex:Car Manufacturer="NISSAN" Name="PATHFINDER 2WD" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="NISSAN" Name="ROGUE FWD" CityFE="26" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="TOYOTA" Name="HIGHLANDER" CityFE="20" HighwayFE="25" CombinedFE="22" />
+  <ex:Car Manufacturer="TOYOTA" Name="HIGHLANDER" CityFE="19" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="TOYOTA" Name="RAV4" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="TOYOTA" Name="RAV4 LE/XLE" CityFE="24" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Volkswagen" Name="Tiguan" CityFE="21" HighwayFE="26" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="XC60 FWD" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Volvo" Name="XC60 FWD" CityFE="22" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Volvo" Name="XC70 FWD" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Acura" Name="MDX 4WD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Acura" Name="MDX 4WD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Acura" Name="RDX 4WD" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Audi" Name="Q5" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Audi" Name="Q5" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Audi" Name="Q5" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Audi" Name="Q5 Hybrid" CityFE="24" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Audi" Name="SQ5" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="BMW" Name="X3 xDrive28d" CityFE="27" HighwayFE="34" CombinedFE="30" />
+  <ex:Car Manufacturer="BMW" Name="X3 xDrive28i" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="X3 xDrive35i" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="BMW" Name="X4 M40i" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="BMW" Name="X4 xDrive28i" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="BMW" Name="X4 xDrive35i" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Buick" Name="ENCORE AWD" CityFE="26" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Buick" Name="ENCORE AWD" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Buick" Name="ENVISION AWD" CityFE="20" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Chevrolet" Name="EQUINOX AWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Chevrolet" Name="EQUINOX AWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Chevrolet" Name="EQUINOX AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="TRAX AWD" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Dodge" Name="Journey AWD" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="FIAT" Name="500X AWD" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="Ford" Name="EDGE AWD" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Ford" Name="EDGE AWD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="EDGE AWD" CityFE="17" HighwayFE="25" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="ESCAPE AWD" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Ford" Name="ESCAPE AWD" CityFE="21" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="GMC" Name="TERRAIN AWD" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="GMC" Name="TERRAIN AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Honda" Name="CR-V 4WD" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Honda" Name="HR-V 4WD" CityFE="27" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Honda" Name="HR-V 4WD" CityFE="27" HighwayFE="32" CombinedFE="29" />
+  <ex:Car Manufacturer="Honda" Name="PILOT 4WD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Honda" Name="PILOT 4WD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe AWD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Sport AWD" CityFE="18" HighwayFE="24" CombinedFE="21" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Sport AWD" CityFE="19" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Santa Fe Ultimate AWD" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Tucson AWD" CityFE="24" HighwayFE="28" CombinedFE="26" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Tucson AWD" CityFE="21" HighwayFE="26" CombinedFE="23" />
+  <ex:Car Manufacturer="HYUNDAI MOTOR COMPANY" Name="Tucson Eco AWD" CityFE="25" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="INFINITI" Name="QX60 AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="INFINITI" Name="QX70 AWD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee 4X4" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee 4X4" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee 4X4" CityFE="20" HighwayFE="28" CombinedFE="23" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee 4x4 Active Drive II" CityFE="21" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee 4x4 Active Drive II" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee Trailhawk 4X4" CityFE="19" HighwayFE="25" CombinedFE="22" />
+  <ex:Car Manufacturer="Jeep" Name="Cherokee Trailhawk 4X4" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Jeep" Name="Compass 4X4" CityFE="20" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Jeep" Name="Compass 4X4" CityFE="20" HighwayFE="23" CombinedFE="21" />
+  <ex:Car Manufacturer="Jeep" Name="Compass 4X4" CityFE="22" HighwayFE="27" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot 4X4" CityFE="20" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot 4X4" CityFE="20" HighwayFE="23" CombinedFE="21" />
+  <ex:Car Manufacturer="Jeep" Name="Patriot 4X4" CityFE="22" HighwayFE="27" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Renegade 4x4" CityFE="24" HighwayFE="31" CombinedFE="27" />
+  <ex:Car Manufacturer="Jeep" Name="Renegade 4x4" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Wrangler 4X4" CityFE="17" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="Jeep" Name="Wrangler 4X4" CityFE="17" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="Jeep" Name="Wrangler Unlimited 4X4" CityFE="16" HighwayFE="20" CombinedFE="18" />
+  <ex:Car Manufacturer="Jeep" Name="Wrangler Unlimited 4X4" CityFE="16" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento AWD" CityFE="19" HighwayFE="25" CombinedFE="22" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento AWD" CityFE="21" HighwayFE="26" CombinedFE="23" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento AWD" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sorento AWD FE" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sportage AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="KIA MOTORS CORPORATION" Name="Sportage SX AWD" CityFE="19" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Land Rover" Name="Discovery Sport" CityFE="20" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover Evoque" CityFE="21" HighwayFE="30" CombinedFE="24" />
+  <ex:Car Manufacturer="LEXUS" Name="NX 200t AWD" CityFE="22" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="LEXUS" Name="NX 200t AWD F SPORT" CityFE="22" HighwayFE="27" CombinedFE="24" />
+  <ex:Car Manufacturer="LEXUS" Name="NX 300h AWD" CityFE="33" HighwayFE="30" CombinedFE="32" />
+  <ex:Car Manufacturer="LEXUS" Name="RX 350 AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Lincoln" Name="MKC  AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Lincoln" Name="MKC  AWD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Lincoln" Name="MKX AWD" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Lincoln" Name="MKX AWD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="MAZDA" Name="CX-5 4WD" CityFE="24" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLA 250 4MATIC" CityFE="24" HighwayFE="32" CombinedFE="27" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLA 250 4MATIC" CityFE="24" HighwayFE="32" CombinedFE="27" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLC 300 4MATIC" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER 4WD" CityFE="24" HighwayFE="29" CombinedFE="26" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER 4WD" CityFE="20" HighwayFE="27" CombinedFE="23" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER SPORT 4WD" CityFE="23" HighwayFE="29" CombinedFE="26" />
+  <ex:Car Manufacturer="Mitsubishi Motors Corporation" Name="OUTLANDER SPORT 4WD" CityFE="22" HighwayFE="27" CombinedFE="24" />
+  <ex:Car Manufacturer="NISSAN" Name="PATHFINDER 4WD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="NISSAN" Name="PATHFINDER 4WD PLATINUM" CityFE="19" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="NISSAN" Name="ROGUE AWD" CityFE="25" HighwayFE="32" CombinedFE="28" />
+  <ex:Car Manufacturer="Porsche" Name="Macan S" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Porsche" Name="Macan Turbo" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Subaru" Name="CROSSTREK" CityFE="26" HighwayFE="34" CombinedFE="29" />
+  <ex:Car Manufacturer="Subaru" Name="CROSSTREK" CityFE="23" HighwayFE="31" CombinedFE="26" />
+  <ex:Car Manufacturer="Subaru" Name="CROSSTREK HYBRID" CityFE="30" HighwayFE="34" CombinedFE="31" />
+  <ex:Car Manufacturer="Subaru" Name="FORESTER" CityFE="23" HighwayFE="28" CombinedFE="25" />
+  <ex:Car Manufacturer="Subaru" Name="FORESTER" CityFE="24" HighwayFE="32" CombinedFE="27" />
+  <ex:Car Manufacturer="Subaru" Name="FORESTER" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Subaru" Name="OUTBACK" CityFE="25" HighwayFE="33" CombinedFE="28" />
+  <ex:Car Manufacturer="Subaru" Name="OUTBACK" CityFE="20" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="TOYOTA" Name="RAV4 AWD" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="TOYOTA" Name="RAV4 HYBRID AWD" CityFE="34" HighwayFE="31" CombinedFE="33" />
+  <ex:Car Manufacturer="TOYOTA" Name="RAV4 Limited AWD/SE AWD" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Volkswagen" Name="Tiguan 4Motion" CityFE="20" HighwayFE="26" CombinedFE="23" />
+  <ex:Car Manufacturer="Volvo" Name="XC60 AWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Volvo" Name="XC60 AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Volvo" Name="XC60 AWD" CityFE="17" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="Volvo" Name="XC70 AWD" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="BMW" Name="X5 sDrive35i" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="BMW" Name="X6 sDrive35i" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Buick" Name="ENCLAVE FWD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Cadillac" Name="ESCALADE 2WD" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Cadillac" Name="SRX" CityFE="17" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Chevrolet" Name="C1500 SUBURBAN 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="C1500 SUBURBAN 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="C1500 TAHOE 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="C1500 TAHOE 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="TRAVERSE FWD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Dodge" Name="Durango RWD" CityFE="19" HighwayFE="27" CombinedFE="22" />
+  <ex:Car Manufacturer="Dodge" Name="Durango RWD" CityFE="14" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="Expedition 2WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="Expedition EL 2WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER FFV 2WD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER FWD" CityFE="19" HighwayFE="28" CombinedFE="22" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER FWD" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Ford" Name="Flex FWD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="GMC" Name="ACADIA FWD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="C1500 YUKON 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="C1500 YUKON 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="C1500 YUKON 2WD" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="C1500 YUKON XL 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="C1500 YUKON XL 2WD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="C1500 YUKON XL 2WD" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="INFINITI" Name="QX60 Hybrid FWD" CityFE="26" HighwayFE="28" CombinedFE="26" />
+  <ex:Car Manufacturer="INFINITI" Name="QX80 2WD" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="Jeep" Name="Grand Cherokee 4X2" CityFE="22" HighwayFE="30" CombinedFE="25" />
+  <ex:Car Manufacturer="Jeep" Name="Grand Cherokee 4X2" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Lincoln" Name="MKT FWD" CityFE="16" HighwayFE="24" CombinedFE="19" />
+  <ex:Car Manufacturer="Lincoln" Name="Navigator 2WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Lincoln" Name="Navigator L 2WD" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 350" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="TOYOTA" Name="4RUNNER 2WD" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="TOYOTA" Name="SEQUOIA 2WD" CityFE="13" HighwayFE="17" CombinedFE="15" />
+  <ex:Car Manufacturer="Volvo" Name="XC90 FWD" CityFE="22" HighwayFE="26" CombinedFE="24" />
+  <ex:Car Manufacturer="BMW" Name="X5 M" CityFE="14" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="BMW" Name="X5 xDrive 35d" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="BMW" Name="X5 xDrive35i" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="X5 xDrive50i" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="BMW" Name="X6 M" CityFE="14" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="BMW" Name="X6 xDrive35i" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="BMW" Name="X6 xDrive50i" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Buick" Name="ENCLAVE AWD" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Cadillac" Name="ESCALADE 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Cadillac" Name="SRX AWD" CityFE="16" HighwayFE="23" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K1500 SUBURBAN 4WD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K1500 SUBURBAN 4WD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K1500 TAHOE 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="K1500 TAHOE 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Chevrolet" Name="TRAVERSE AWD" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Dodge" Name="Durango AWD" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Dodge" Name="Durango AWD" CityFE="14" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="Expedition 4WD" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="Ford" Name="Expedition EL 4WD" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER AWD" CityFE="18" HighwayFE="26" CombinedFE="21" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER AWD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER AWD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="EXPLORER FFV AWD" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Ford" Name="FLEX AWD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="Ford" Name="FLEX AWD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="ACADIA AWD" CityFE="15" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="K1500 YUKON 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K1500 YUKON 4WD" CityFE="16" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K1500 YUKON 4WD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="GMC" Name="K1500 YUKON XL 4WD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K1500 YUKON XL 4WD" CityFE="15" HighwayFE="22" CombinedFE="18" />
+  <ex:Car Manufacturer="GMC" Name="K1500 YUKON XL 4WD" CityFE="14" HighwayFE="20" CombinedFE="16" />
+  <ex:Car Manufacturer="INFINITI" Name="QX60 Hybrid AWD" CityFE="25" HighwayFE="28" CombinedFE="26" />
+  <ex:Car Manufacturer="INFINITI" Name="QX80 4WD" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="Jeep" Name="Grand Cherokee 4X4" CityFE="21" HighwayFE="28" CombinedFE="24" />
+  <ex:Car Manufacturer="Jeep" Name="Grand Cherokee 4X4" CityFE="18" HighwayFE="25" CombinedFE="21" />
+  <ex:Car Manufacturer="Jeep" Name="Grand Cherokee 4X4" CityFE="14" HighwayFE="22" CombinedFE="17" />
+  <ex:Car Manufacturer="Jeep" Name="Grand Cherokee SRT8 4x4" CityFE="13" HighwayFE="19" CombinedFE="15" />
+  <ex:Car Manufacturer="Land Rover" Name="LR4" CityFE="15" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover" CityFE="14" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover LWB" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover LWB" CityFE="14" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover Sport" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover Sport" CityFE="14" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover Sport TDV6" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="Land Rover" Name="Range Rover TDV6" CityFE="22" HighwayFE="29" CombinedFE="25" />
+  <ex:Car Manufacturer="LEXUS" Name="GX 460" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="LEXUS" Name="LX 570" CityFE="13" HighwayFE="18" CombinedFE="15" />
+  <ex:Car Manufacturer="LEXUS" Name="RX 450h AWD" CityFE="30" HighwayFE="28" CombinedFE="30" />
+  <ex:Car Manufacturer="Lincoln" Name="MKT AWD" CityFE="15" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Lincoln" Name="Navigator 4WD" CityFE="15" HighwayFE="20" CombinedFE="17" />
+  <ex:Car Manufacturer="Lincoln" Name="Navigator L 4WD" CityFE="15" HighwayFE="19" CombinedFE="16" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG G 63" CityFE="12" HighwayFE="14" CombinedFE="13" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG G65" CityFE="11" HighwayFE="13" CombinedFE="12" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG GL 63" CityFE="13" HighwayFE="17" CombinedFE="14" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG GLE 63" CityFE="13" HighwayFE="17" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG GLE 63 S" CityFE="13" HighwayFE="17" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="AMG GLE 63 S (coupe)" CityFE="14" HighwayFE="18" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="G 550" CityFE="13" HighwayFE="14" CombinedFE="13" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GL 350 BLUETEC 4MATIC" CityFE="19" HighwayFE="26" CombinedFE="22" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GL 450 4MATIC" CityFE="17" HighwayFE="21" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GL 550 4MATIC" CityFE="13" HighwayFE="18" CombinedFE="15" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 300 d 4MATIC" CityFE="22" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 350 4MATIC" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 350 4MATIC" CityFE="17" HighwayFE="22" CombinedFE="19" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 350 d 4MATIC" CityFE="23" HighwayFE="30" CombinedFE="26" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 400 4MATIC" CityFE="18" HighwayFE="22" CombinedFE="20" />
+  <ex:Car Manufacturer="Mercedes-Benz" Name="GLE 450 AMG (coupe)" CityFE="17" HighwayFE="23" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="Cayenne" CityFE="19" HighwayFE="24" CombinedFE="21" />
+  <ex:Car Manufacturer="Porsche" Name="Cayenne Diesel" CityFE="20" HighwayFE="29" CombinedFE="23" />
+  <ex:Car Manufacturer="Porsche" Name="Cayenne GTS" CityFE="16" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Porsche" Name="Cayenne S" CityFE="17" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="Porsche" Name="Cayenne Turbo" CityFE="14" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="Porsche" Name="Cayenne Turbo S" CityFE="14" HighwayFE="21" CombinedFE="17" />
+  <ex:Car Manufacturer="TOYOTA" Name="4RUNNER 4WD" CityFE="17" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="TOYOTA" Name="4RUNNER 4WD" CityFE="17" HighwayFE="21" CombinedFE="18" />
+  <ex:Car Manufacturer="TOYOTA" Name="HIGHLANDER AWD" CityFE="18" HighwayFE="24" CombinedFE="20" />
+  <ex:Car Manufacturer="TOYOTA" Name="HIGHLANDER HYBRID AWD" CityFE="27" HighwayFE="28" CombinedFE="28" />
+  <ex:Car Manufacturer="TOYOTA" Name="HIGHLANDER HYBRID AWD LE Plus" CityFE="28" HighwayFE="28" CombinedFE="28" />
+  <ex:Car Manufacturer="TOYOTA" Name="LAND CRUISER WAGON 4WD" CityFE="13" HighwayFE="18" CombinedFE="15" />
+  <ex:Car Manufacturer="TOYOTA" Name="SEQUOIA 4WD" CityFE="13" HighwayFE="17" CombinedFE="14" />
+  <ex:Car Manufacturer="TOYOTA" Name="SEQUOIA 4WD FFV" CityFE="13" HighwayFE="17" CombinedFE="14" />
+  <ex:Car Manufacturer="Volkswagen" Name="Touareg" CityFE="21" HighwayFE="29" CombinedFE="24" />
+  <ex:Car Manufacturer="Volkswagen" Name="Touareg" CityFE="17" HighwayFE="23" CombinedFE="19" />
+  <ex:Car Manufacturer="Volvo" Name="XC90 AWD" CityFE="20" HighwayFE="25" CombinedFE="22" />
+  <ex:Car Manufacturer="Volvo" Name="XC90 AWD" CityFE="22" HighwayFE="25" CombinedFE="23" />
+</Cars>

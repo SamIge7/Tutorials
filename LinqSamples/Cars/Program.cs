@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace Cars
 {
@@ -9,8 +10,10 @@ namespace Cars
     {
         static void Main(string[] args)
         {
-            var cars = ProcessCars("fuel.csv");
-            var manufacturers = ProcessManufacturers("manufacturers.csv");
+            CreateXML();
+            QueryXML();
+
+            //var manufacturers = ProcessManufacturers("manufacturers.csv");
 
             //var extensionMethodsQuery = cars.Join(manufacturers, 
             //                                      c => new { c.Manufacturer, c.Year }, 
@@ -47,52 +50,93 @@ namespace Cars
             //    Console.WriteLine($"{car.Headquarters} {car.Name} : {car.Combined}");
             //}
 
-            var groupedLinqSyntaxQuery = from car in cars
-                                         group car by car.Manufacturer into carGroup
-                                         select new
-                                         {
-                                             Name = carGroup.Key,
-                                             MaxFE = carGroup.Max(c => c.Combined),
-                                             MinFE = carGroup.Min(c => c.Combined),
-                                             AvgFE = carGroup.Average(c => c.Combined)
-                                         } into result
-                                         orderby result.MaxFE descending
-                                         select result;
+            //var groupedLinqSyntaxQuery = from car in cars
+            //                             group car by car.Manufacturer into carGroup
+            //                             select new
+            //                             {
+            //                                 Name = carGroup.Key,
+            //                                 MaxFE = carGroup.Max(c => c.Combined),
+            //                                 MinFE = carGroup.Min(c => c.Combined),
+            //                                 AvgFE = carGroup.Average(c => c.Combined)
+            //                             } into result
+            //                             orderby result.MaxFE descending
+            //                             select result;
 
-            var groupedExtensionMethodsQuery = cars.GroupBy(c => c.Manufacturer)
-                    .Select(g =>
-                    {
-                        var results = g.Aggregate(new CarStatistics(),
-                                            (acc, c) => acc.Accumulate(c),
-                                            acc => acc.Compute());
-                        return new
-                        {
-                            Name = g.Key,
-                            AverageFE = results.AverageFE,
-                            MinFE = results.MinFE,
-                            MaxFE = results.MaxFE
-                        };
-                    })
-                    .OrderByDescending(r => r.MaxFE);
+            //var groupedExtensionMethodsQuery = cars.GroupBy(c => c.Manufacturer)
+            //        .Select(g =>
+            //        {
+            //            var results = g.Aggregate(new CarStatistics(),
+            //                                (acc, c) => acc.Accumulate(c),
+            //                                acc => acc.Compute());
+            //            return new
+            //            {
+            //                Name = g.Key,
+            //                AverageFE = results.AverageFE,
+            //                MinFE = results.MinFE,
+            //                MaxFE = results.MaxFE
+            //            };
+            //        })
+            //        .OrderByDescending(r => r.MaxFE);
 
-            foreach (var result in groupedLinqSyntaxQuery)
-            {
-                Console.WriteLine($"{result.Name}");
-                Console.WriteLine($"\t Max: {result.MaxFE}");
-                Console.WriteLine($"\t Min: {result.MinFE}");
-                Console.WriteLine($"\t Avg: {result.AvgFE}");
-            }
+            //foreach (var result in groupedLinqSyntaxQuery)
+            //{
+            //    Console.WriteLine($"{result.Name}");
+            //    Console.WriteLine($"\t Max: {result.MaxFE}");
+            //    Console.WriteLine($"\t Min: {result.MinFE}");
+            //    Console.WriteLine($"\t Avg: {result.AvgFE}");
+            //}
 
-            Console.WriteLine("*******");
+            //Console.WriteLine("*******");
 
-            foreach (var result in groupedExtensionMethodsQuery)
-            {
-                Console.WriteLine($"{result.Name}");
-                Console.WriteLine($"\t Max: {result.MaxFE}");
-                Console.WriteLine($"\t Min: {result.MinFE}");
-                Console.WriteLine($"\t Avg: {result.AverageFE}");
-            }
+            //foreach (var result in groupedExtensionMethodsQuery)
+            //{
+            //    Console.WriteLine($"{result.Name}");
+            //    Console.WriteLine($"\t Max: {result.MaxFE}");
+            //    Console.WriteLine($"\t Min: {result.MinFE}");
+            //    Console.WriteLine($"\t Avg: {result.AverageFE}");
+            //}
         }
+
+        private static void QueryXML()
+        {
+            var ns = (XNamespace)"http://pluralsight.com/cars/2016";
+            var ex = (XNamespace)"http://pluralsight.com/cars/2016/ex";
+            var document = XDocument.Load("fuel.xml");
+
+            var query = from element in document.Element(ns + "Cars")?.Elements(ex + "Car") 
+                                                                ?? Enumerable.Empty<XElement>()
+                        where element.Attribute("Manufacturer").Value == "BMW"
+                        select element.Attribute("Name").Value;
+
+            foreach (var element in query)
+            {
+                Console.WriteLine(element);
+            }
+
+        }
+
+        private static void CreateXML()
+        {
+            var records = ProcessCars("fuel.csv");
+
+            var ns = (XNamespace)"http://pluralsight.com/cars/2016";
+            var ex = (XNamespace)"http://pluralsight.com/cars/2016/ex";
+            var document = new XDocument();
+            var cars = new XElement(ns + "Cars",
+                           from record in records
+                           select new XElement(ex + "Car",
+                                  new XAttribute("Manufacturer", record.Manufacturer),
+                                  new XAttribute("Name", record.Name),
+                                  new XAttribute("CityFE", record.City),
+                                  new XAttribute("HighwayFE", record.Highway),
+                                  new XAttribute("CombinedFE", record.Combined)
+                                  ));
+            cars.Add(new XAttribute(XNamespace.Xmlns + "ex", ex));
+
+            document.Add(cars);
+            document.Save("fuel.xml");
+        }
+
         private static List<Manufacturer> ProcessManufacturers(string path)
         {
             var query = File.ReadAllLines(path)
