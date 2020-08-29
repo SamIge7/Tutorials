@@ -7,7 +7,6 @@ C:\SideWork\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.pdb
 C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.csprojAssemblyReference.cache
 C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfoInputs.cache
 C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfo.cs
-C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.csproj.CoreCompileInputs.cache
 C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.dll
 C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.pdb
 C:\SideWork\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.genruntimeconfig.cache

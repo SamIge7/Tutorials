@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Xml.Linq;
 
 namespace Cars
@@ -10,8 +12,12 @@ namespace Cars
     {
         static void Main(string[] args)
         {
-            CreateXML();
-            QueryXML();
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CarDb>());
+            InsertData();
+            QueryData();
+
+            //CreateXML();
+            //QueryXML();
 
             //var manufacturers = ProcessManufacturers("manufacturers.csv");
 
@@ -95,6 +101,46 @@ namespace Cars
             //    Console.WriteLine($"\t Min: {result.MinFE}");
             //    Console.WriteLine($"\t Avg: {result.AverageFE}");
             //}
+        }
+
+        private static void QueryData()
+        {
+            var db = new CarDb();
+            db.Database.Log = Console.WriteLine;
+
+            var query = from car in db.Cars
+                        group car by car.Manufacturer into manufacturer
+                        select new
+                        {
+                            Name = manufacturer.Key,
+                            Cars = (from car in manufacturer
+                                    orderby car.Combined descending
+                                    select car).Take(2)
+                        };
+
+            foreach (var group in query)
+            {
+                Console.WriteLine(group.Name);
+                foreach (var car in group.Cars)
+                {
+                    Console.WriteLine($"\t{car.Name} : {car.Combined}");
+                }
+            }
+        }
+
+        private static void InsertData()
+        {
+            var cars = ProcessCars("fuel.csv");
+            var db = new CarDb();
+
+            if(!db.Cars.Any())
+            {
+                foreach (var car in cars)
+                {
+                    db.Cars.Add(car);
+                }
+                db.SaveChanges();
+            }
         }
 
         private static void QueryXML()
