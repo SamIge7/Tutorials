@@ -1,0 +1,13 @@
+C:\SideWork\GameConsole\bin\Debug\netcoreapp3.1\GameConsole.exe
+C:\SideWork\GameConsole\bin\Debug\netcoreapp3.1\GameConsole.deps.json
+C:\SideWork\GameConsole\bin\Debug\netcoreapp3.1\GameConsole.runtimeconfig.json
+C:\SideWork\GameConsole\bin\Debug\netcoreapp3.1\GameConsole.runtimeconfig.dev.json
+C:\SideWork\GameConsole\bin\Debug\netcoreapp3.1\GameConsole.dll
+C:\SideWork\GameConsole\bin\Debug\netcoreapp3.1\GameConsole.pdb
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.csprojAssemblyReference.cache
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.AssemblyInfoInputs.cache
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.AssemblyInfo.cs
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.csproj.CoreCompileInputs.cache
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.dll
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.pdb
+C:\SideWork\GameConsole\obj\Debug\netcoreapp3.1\GameConsole.genruntimeconfig.cache

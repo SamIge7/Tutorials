@@ -1,0 +1,16 @@
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockData.csv
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockAnalyzer.exe
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockAnalyzer.deps.json
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockAnalyzer.runtimeconfig.json
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockAnalyzer.runtimeconfig.dev.json
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockAnalyzer.dll
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\StockAnalyzer.pdb
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.csprojAssemblyReference.cache
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.AssemblyInfoInputs.cache
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.AssemblyInfo.cs
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.dll
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.pdb
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.genruntimeconfig.cache
+C:\SideWork\StockAnalyzer\StockAnalyzer\bin\Debug\netcoreapp3.1\TimeZoneConverter.dll
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.csproj.CoreCompileInputs.cache
+C:\SideWork\StockAnalyzer\StockAnalyzer\obj\Debug\netcoreapp3.1\StockAnalyzer.csproj.CopyComplete

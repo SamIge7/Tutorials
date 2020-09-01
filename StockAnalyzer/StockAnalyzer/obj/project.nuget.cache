@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ryZoT1jBg74eIaUzlLTA3OGNa4lLrCV+CWFPE6M6zIjPFRUSyPtkaopSQ99d75h5yXF/izvNfMM6pcoEnPis3Q==",
+  "success": true,
+  "projectFilePath": "C:\\SideWork\\StockAnalyzer\\StockAnalyzer\\StockAnalyzer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\timezoneconverter\\3.2.0\\timezoneconverter.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
