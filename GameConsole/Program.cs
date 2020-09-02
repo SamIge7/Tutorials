@@ -7,14 +7,24 @@ namespace GameConsole
     {
         static void Main(string[] args)
         {
-            PlayerCharacter player = new PlayerCharacter();
-            //player.DaysSinceLastLogin = 33;
+            PlayerCharacter nicole = new PlayerCharacter(new DiamondSkinDefence())
+            {
+                Name = "Nicole"
+            };
 
-            int days = player?.DaysSinceLastLogin ?? -1;
+            PlayerCharacter sam = new PlayerCharacter(new IronBonesDefence())
+            {
+                Name = "Sam"
+            };
 
-            //int days = player.DaysSinceLastLogin.Value;
+            PlayerCharacter lewis = new PlayerCharacter(SpecialDefence.Null)
+            {
+                Name = "Lewis"
+            };
 
-            Console.WriteLine(days);
+            nicole.Hit(10);
+            sam.Hit(10);
+            lewis.Hit(10);
 
             Console.ReadLine();
         }
