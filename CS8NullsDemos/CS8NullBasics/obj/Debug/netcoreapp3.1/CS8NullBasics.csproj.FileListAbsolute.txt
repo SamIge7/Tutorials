@@ -1,0 +1,13 @@
+C:\SideWork\CS8NullsDemos\CS8NullBasics\bin\Debug\netcoreapp3.1\CS8NullBasics.exe
+C:\SideWork\CS8NullsDemos\CS8NullBasics\bin\Debug\netcoreapp3.1\CS8NullBasics.deps.json
+C:\SideWork\CS8NullsDemos\CS8NullBasics\bin\Debug\netcoreapp3.1\CS8NullBasics.runtimeconfig.json
+C:\SideWork\CS8NullsDemos\CS8NullBasics\bin\Debug\netcoreapp3.1\CS8NullBasics.runtimeconfig.dev.json
+C:\SideWork\CS8NullsDemos\CS8NullBasics\bin\Debug\netcoreapp3.1\CS8NullBasics.dll
+C:\SideWork\CS8NullsDemos\CS8NullBasics\bin\Debug\netcoreapp3.1\CS8NullBasics.pdb
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.csprojAssemblyReference.cache
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.AssemblyInfoInputs.cache
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.AssemblyInfo.cs
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.csproj.CoreCompileInputs.cache
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.dll
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.pdb
+C:\SideWork\CS8NullsDemos\CS8NullBasics\obj\Debug\netcoreapp3.1\CS8NullBasics.genruntimeconfig.cache
