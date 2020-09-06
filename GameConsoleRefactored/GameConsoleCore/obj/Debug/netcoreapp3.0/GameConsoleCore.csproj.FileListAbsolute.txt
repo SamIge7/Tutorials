@@ -1,0 +1,13 @@
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\bin\Debug\netcoreapp3.0\GameConsoleCore.exe
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\bin\Debug\netcoreapp3.0\GameConsoleCore.deps.json
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\bin\Debug\netcoreapp3.0\GameConsoleCore.runtimeconfig.json
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\bin\Debug\netcoreapp3.0\GameConsoleCore.runtimeconfig.dev.json
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\bin\Debug\netcoreapp3.0\GameConsoleCore.dll
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\bin\Debug\netcoreapp3.0\GameConsoleCore.pdb
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.csprojAssemblyReference.cache
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.AssemblyInfoInputs.cache
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.AssemblyInfo.cs
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.csproj.CoreCompileInputs.cache
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.dll
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.pdb
+C:\SideWork\GameConsoleRefactored\GameConsoleCore\obj\Debug\netcoreapp3.0\GameConsoleCore.genruntimeconfig.cache

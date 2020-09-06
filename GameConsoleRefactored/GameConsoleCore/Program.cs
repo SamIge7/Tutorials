@@ -17,7 +17,7 @@ namespace GameConsoleCore
             PlayerDisplayer.Write(players[0]);
             PlayerDisplayer.Write(players[1]);
             PlayerDisplayer.Write(players[2]);
-            PlayerDisplayer.Write(players[3]);
+            //PlayerDisplayer.Write(players[3]);
 
             Console.ReadLine();
         }
