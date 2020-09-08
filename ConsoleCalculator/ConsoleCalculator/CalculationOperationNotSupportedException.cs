@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleCalculator
 {
-    class CalculationOperationNotSupportedException : CalculationException
+    public class CalculationOperationNotSupportedException : CalculationException
     {
         public string Operation { get; }
 

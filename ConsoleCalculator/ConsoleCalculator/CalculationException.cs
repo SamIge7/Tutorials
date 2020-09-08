@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleCalculator
 {
-    class CalculationException : Exception
+    public class CalculationException : Exception
     {
         private static readonly string DefaultMessage = "An error occured during calculation. Ensure that the operation is supported and within the valid ranges for the requested operation.";
 
