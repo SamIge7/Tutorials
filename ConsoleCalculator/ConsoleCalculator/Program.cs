@@ -27,17 +27,9 @@ namespace ConsoleCalculator
                 int result = calculator.Calculate(number1, number2, operation);
                 DisplayResult(result);
             }
-            catch (ArgumentNullException ex) when (ex.ParamName == "operation")
+            catch (CalculationException ex)
             {
-                WriteLine($"Operation was not provided : {ex}");
-            }
-            catch (ArgumentNullException ex)
-            {
-                WriteLine($"An argument is null : {ex}");
-            }
-            catch (ArgumentOutOfRangeException ex)
-            {
-                WriteLine($"Operation is not supported : {ex}");
+                WriteLine(ex);
             }
             catch (Exception ex)
             {
