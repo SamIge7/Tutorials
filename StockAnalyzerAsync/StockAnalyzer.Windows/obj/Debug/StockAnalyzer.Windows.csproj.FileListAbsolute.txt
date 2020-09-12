@@ -115,3 +115,6 @@ C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Win
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.csproj.CopyComplete
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.exe
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.pdb
+C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\CompanyData.csv
+C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\StockPrices_Small.csv
+C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows_Content.g.cs
