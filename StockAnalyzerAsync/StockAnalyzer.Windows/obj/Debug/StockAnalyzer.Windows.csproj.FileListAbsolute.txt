@@ -1,3 +1,5 @@
+C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\CompanyData.csv
+C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\StockPrices_Small.csv
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\StockAnalyzer.Windows.exe.config
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\StockAnalyzer.Windows.exe
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\StockAnalyzer.Windows.pdb
@@ -105,6 +107,7 @@ C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Win
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.exe.config
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\MainWindow.g.cs
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\App.g.cs
+C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows_Content.g.cs
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows_MarkupCompile.cache
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows_MarkupCompile.lref
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\MainWindow.baml
@@ -115,6 +118,3 @@ C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Win
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.csproj.CopyComplete
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.exe
 C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows.pdb
-C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\CompanyData.csv
-C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\bin\Debug\StockPrices_Small.csv
-C:\SideWork\StockAnalyzerAsync\StockAnalyzer.Windows\obj\Debug\StockAnalyzer.Windows_Content.g.cs

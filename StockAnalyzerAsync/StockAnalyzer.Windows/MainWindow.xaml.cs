@@ -1,20 +1,16 @@
-﻿using System;
+﻿using StockAnalyzer.Core.Domain;
+using StockAnalyzer.Windows.Services;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Navigation;
-using Newtonsoft.Json;
-using StockAnalyzer.Core.Domain;
-using StockAnalyzer.Windows.Services;
 
 namespace StockAnalyzer.Windows
 {
@@ -25,13 +21,11 @@ namespace StockAnalyzer.Windows
             InitializeComponent();
         }
 
+        #region Processing a collection of data in parallel
         CancellationTokenSource cancellationTokenSource = null;
 
-        #region Completed
         private async void Search_Click(object sender, RoutedEventArgs e)
         {
-            #region Code to make sure Web API is running
-            // This code is just here to make sure that you have started the web api as well!
             using (var client = new HttpClient())
             {
                 try
@@ -43,7 +37,6 @@ namespace StockAnalyzer.Windows
                     MessageBox.Show("Ensure that StockAnalyzer.Web is running, expecting to be running on http://localhost:61363. You can configure the solution to start two projects by right clicking the StockAnalyzer solution in Visual Studio, select properties and then Mutliuple Startup Projects.", "StockAnalyzer.Web IS NOT RUNNING");
                 }
             }
-            #endregion
 
             #region Before loading stock data
             var watch = new Stopwatch();
@@ -63,6 +56,7 @@ namespace StockAnalyzer.Windows
             }
 
             cancellationTokenSource = new CancellationTokenSource();
+
             cancellationTokenSource.Token.Register(() =>
             {
                 Notes.Text += "Cancellation requested" + Environment.NewLine;
@@ -71,6 +65,7 @@ namespace StockAnalyzer.Windows
 
             try
             {
+                #region Load One or Many Tickers
                 var tickers = Ticker.Text.Split(',', ' ');
 
                 var service = new StockService();
@@ -82,20 +77,48 @@ namespace StockAnalyzer.Windows
 
                     tickerLoadingTasks.Add(loadTask);
                 }
-                var timeoutTask = Task.Delay(30000);
+                #endregion
 
-                var allStocksLoadingTask = Task.WhenAll(tickerLoadingTasks);
+                var loadedStocks = await Task.WhenAll(tickerLoadingTasks);
 
-                var completedTask = await Task.WhenAny(timeoutTask, allStocksLoadingTask);
+                var values = new ConcurrentBag<StockCalculation>();
 
-                if (completedTask == timeoutTask)
-                {
-                    cancellationTokenSource.Cancel();
-                    cancellationTokenSource = null;
-                    throw new Exception("Timeout!");
-                }
+                var executionResult = Parallel.ForEach(loadedStocks,
+                    new ParallelOptions { MaxDegreeOfParallelism = 2 },
+                    (stocks, state) =>
+                    {
+                        var ticker = stocks.First().Ticker;
 
-                Stocks.ItemsSource = allStocksLoadingTask.Result.SelectMany(stocks => stocks);
+                        Debug.WriteLine($"Start processing {ticker}");
+
+                        if (ticker == "MSFT")
+                        {
+                            Debug.WriteLine($"Found {ticker}, breaking");
+
+                            state.Stop();
+
+                            return;
+                        }
+
+                        if (state.IsStopped) return;
+
+                        var result = CalculateExpensiveComputation(stocks);
+
+                        var data = new StockCalculation
+                        {
+                            Ticker = ticker,
+                            Result = result
+                        };
+
+                        values.Add(data);
+
+                        Debug.WriteLine($"Completed processing {ticker}");
+                    });
+
+                Notes.Text = $"Ran to complation: {executionResult.IsCompleted}" + Environment.NewLine;
+                Notes.Text += $"Lowest break iteration: {executionResult.LowestBreakIteration}";
+
+                Stocks.ItemsSource = values.ToArray();
             }
             catch (Exception ex)
             {
@@ -114,11 +137,14 @@ namespace StockAnalyzer.Windows
         }
         #endregion
 
-        #region Process a task as they complete
+        #region Working with Shared Variables
+
+        //static object syncRoot = new object();
+
+        //CancellationTokenSource cancellationTokenSource = null;
+
         //private async void Search_Click(object sender, RoutedEventArgs e)
         //{
-        //    #region Code to make sure Web API is running
-        //    // This code is just here to make sure that you have started the web api as well!
         //    using (var client = new HttpClient())
         //    {
         //        try
@@ -130,8 +156,6 @@ namespace StockAnalyzer.Windows
         //            MessageBox.Show("Ensure that StockAnalyzer.Web is running, expecting to be running on http://localhost:61363. You can configure the solution to start two projects by right clicking the StockAnalyzer solution in Visual Studio, select properties and then Mutliuple Startup Projects.", "StockAnalyzer.Web IS NOT RUNNING");
         //        }
         //    }
-        //    #endregion
-
         //    #region Before loading stock data
         //    var watch = new Stopwatch();
         //    watch.Start();
@@ -159,95 +183,7 @@ namespace StockAnalyzer.Windows
 
         //    try
         //    {
-        //        var tickers = Ticker.Text.Split(',', ' ');
-
-        //        var service = new StockService();
-        //        var stocks = new ConcurrentBag<StockPrice>();
-
-        //        var tickerLoadingTasks = new List<Task<IEnumerable<StockPrice>>>();
-        //        foreach (var ticker in tickers)
-        //        {
-        //            var loadTask = service.GetStockPricesFor(ticker, cancellationTokenSource.Token)
-        //                .ContinueWith(t =>
-        //                {
-        //                    foreach (var stock in t.Result.Take(5)) stocks.Add(stock);
-
-        //                    Dispatcher.Invoke(() =>
-        //                    {
-        //                        Stocks.ItemsSource = stocks.ToArray();
-        //                    });
-
-        //                    return t.Result;
-        //                });
-
-        //            tickerLoadingTasks.Add(loadTask);
-        //        }
-
-        //        await Task.WhenAll(tickerLoadingTasks);
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Notes.Text += ex.Message + Environment.NewLine;
-        //    }
-        //    finally
-        //    {
-        //        cancellationTokenSource = null;
-        //    }
-
-        //    #region After stock data is loaded
-        //    StocksStatus.Text = $"Loaded stocks for {Ticker.Text} in {watch.ElapsedMilliseconds}ms";
-        //    StockProgress.Visibility = Visibility.Hidden;
-        //    Search.Content = "Search";
-        //    #endregion
-        //}
-        #endregion
-
-        #region Knowing when All or Any Task completes
-        //private async void Search_Click(object sender, RoutedEventArgs e)
-        //{
-        //    #region Code to make sure Web API is running
-        //    // This code is just here to make sure that you have started the web api as well!
-        //    using (var client = new HttpClient())
-        //    {
-        //        try
-        //        {
-        //            var response = await client.GetAsync("http://localhost:61363");
-        //        }
-        //        catch (Exception)
-        //        {
-        //            MessageBox.Show("Ensure that StockAnalyzer.Web is running, expecting to be running on http://localhost:61363. You can configure the solution to start two projects by right clicking the StockAnalyzer solution in Visual Studio, select properties and then Mutliuple Startup Projects.", "StockAnalyzer.Web IS NOT RUNNING");
-        //        }
-        //    }
-        //    #endregion
-
-        //    #region Before loading stock data
-        //    var watch = new Stopwatch();
-        //    watch.Start();
-        //    StockProgress.Visibility = Visibility.Visible;
-        //    StockProgress.IsIndeterminate = true;
-
-        //    Search.Content = "Cancel";
-        //    #endregion
-
-        //    #region Cancellation
-        //    if (cancellationTokenSource != null)
-        //    {
-        //        cancellationTokenSource.Cancel();
-        //        cancellationTokenSource = null;
-        //        return;
-        //    }
-
-        //    cancellationTokenSource = new CancellationTokenSource();
-
-        //    cancellationTokenSource.Token.Register(() =>
-        //    {
-        //        Notes.Text += "Cancellation requested" + Environment.NewLine;
-        //    });
-        //    #endregion
-
-        //    try
-        //    {
+        //        #region Load One or Many Tickers
         //        var tickers = Ticker.Text.Split(',', ' ');
 
         //        var service = new StockService();
@@ -259,20 +195,27 @@ namespace StockAnalyzer.Windows
 
         //            tickerLoadingTasks.Add(loadTask);
         //        }
-        //        var timeoutTask = Task.Delay(30000);
+        //        #endregion
 
-        //        var allStocksLoadingTask = Task.WhenAll(tickerLoadingTasks);
+        //        var loadedStocks = (await Task.WhenAll(tickerLoadingTasks));
 
-        //        var completedTask = await Task.WhenAny(timeoutTask, allStocksLoadingTask);
+        //        decimal total = 0;
 
-        //        if (completedTask == timeoutTask)
+        //        Parallel.ForEach(loadedStocks, stocks =>
         //        {
-        //            cancellationTokenSource.Cancel();
-        //            cancellationTokenSource = null;
-        //            throw new Exception("Timeout!");
-        //        }
+        //            var value = 0m;
+        //            foreach (var stock in stocks)
+        //            {
+        //                value += Compute(stock);
+        //            }
 
-        //        Stocks.ItemsSource = allStocksLoadingTask.Result.SelectMany(stocks => stocks);
+        //            lock (syncRoot)
+        //            {
+        //                total += value;
+        //            }
+        //        });
+
+        //        Notes.Text = total.ToString();
         //    }
         //    catch (Exception ex)
         //    {
@@ -291,9 +234,22 @@ namespace StockAnalyzer.Windows
         //}
         #endregion
 
-        #region Handeling Success or Failure
-        //private void Search_Click(object sender, RoutedEventArgs e)
+        #region Invoke operations in parallel
+        //CancellationTokenSource cancellationTokenSource = null;
+
+        //private async void Search_Click(object sender, RoutedEventArgs e)
         //{
+        //    using (var client = new HttpClient())
+        //    {
+        //        try
+        //        {
+        //            var response = await client.GetAsync("http://localhost:61363");
+        //        }
+        //        catch (Exception)
+        //        {
+        //            MessageBox.Show("Ensure that StockAnalyzer.Web is running, expecting to be running on http://localhost:61363. You can configure the solution to start two projects by right clicking the StockAnalyzer solution in Visual Studio, select properties and then Mutliuple Startup Projects.", "StockAnalyzer.Web IS NOT RUNNING");
+        //        }
+        //    }
         //    #region Before loading stock data
         //    var watch = new Stopwatch();
         //    watch.Start();
@@ -303,6 +259,7 @@ namespace StockAnalyzer.Windows
         //    Search.Content = "Cancel";
         //    #endregion
 
+        //    #region Cancellation
         //    if (cancellationTokenSource != null)
         //    {
         //        cancellationTokenSource.Cancel();
@@ -314,85 +271,97 @@ namespace StockAnalyzer.Windows
 
         //    cancellationTokenSource.Token.Register(() =>
         //    {
-        //        Notes.Text = "Cancellation requested";
+        //        Notes.Text += "Cancellation requested" + Environment.NewLine;
         //    });
+        //    #endregion
 
-        //    var loadLinesTask = SearchForStocks(cancellationTokenSource.Token);
-
-        //    var processStocksTask = loadLinesTask.ContinueWith(t =>
+        //    try
         //    {
+        //        #region Load One or Many Tickers
+        //        var tickers = Ticker.Text.Split(',', ' ');
 
-        //        var lines = t.Result;
+        //        var service = new StockService();
 
-        //        var data = new List<StockPrice>();
-
-        //        foreach (var line in lines.Skip(1))
+        //        var tickerLoadingTasks = new List<Task<IEnumerable<StockPrice>>>();
+        //        foreach (var ticker in tickers)
         //        {
-        //            var segments = line.Split(',');
+        //            var loadTask = service.GetStockPricesFor(ticker, cancellationTokenSource.Token);
 
-        //            for (var i = 0; i < segments.Length; i++) segments[i] = segments[i].Trim('\'', '"');
-
-        //            var price = new StockPrice
-        //            {
-        //                Ticker = segments[0],
-        //                TradeDate = DateTime.ParseExact(segments[1], "M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture),
-        //                Volume = Convert.ToInt32(segments[6], CultureInfo.InvariantCulture),
-        //                Change = Convert.ToDecimal(segments[7], CultureInfo.InvariantCulture),
-        //                ChangePercent = Convert.ToDecimal(segments[8], CultureInfo.InvariantCulture),
-        //            };
-
-        //            data.Add(price);
+        //            tickerLoadingTasks.Add(loadTask);
         //        }
+        //        #endregion
 
-        //        Dispatcher.Invoke(() =>
-        //        {
-        //            Stocks.ItemsSource = data.Where(price => price.Ticker == Ticker.Text);
-        //        });
-        //    },
-        //        cancellationTokenSource.Token,
-        //        TaskContinuationOptions.OnlyOnRanToCompletion,
-        //        TaskScheduler.Current);
+        //        var loadedStocks = (await Task.WhenAll(tickerLoadingTasks)).SelectMany(stock => stock);
 
-        //    loadLinesTask.ContinueWith(t =>
+        //        Parallel.Invoke(new ParallelOptions { CancellationToken = cancellationTokenSource.Token },
+        //                            () =>
+        //                            {
+        //                                #region Starting
+        //                                Debug.WriteLine("Starting Operation 1");
+        //                                #endregion
+
+        //                                CalculateExpensiveComputation(loadedStocks);
+
+        //                                #region Ending
+        //                                Debug.WriteLine("Completed Operation 1");
+        //                                #endregion
+        //                            },
+        //                            () =>
+        //                            {
+        //                                #region Starting
+        //                                Debug.WriteLine("Starting Operation 2");
+        //                                #endregion
+
+        //                                CalculateExpensiveComputation(loadedStocks);
+
+        //                                #region Ending
+        //                                Debug.WriteLine("Completed Operation 2");
+        //                                #endregion
+        //                            },
+
+        //                            () =>
+        //                            {
+        //                                #region Starting
+        //                                Debug.WriteLine("Starting Operation 3");
+        //                                #endregion
+
+        //                                CalculateExpensiveComputation(loadedStocks);
+
+        //                                #region Ending
+        //                                Debug.WriteLine("Completed Operation 3");
+        //                                #endregion
+        //                            },
+
+        //                            () =>
+        //                            {
+        //                                #region Starting
+        //                                Debug.WriteLine("Starting Operation 4");
+        //                                #endregion
+
+        //                                CalculateExpensiveComputation(loadedStocks);
+
+        //                                #region Ending
+        //                                Debug.WriteLine("Completed Operation 4");
+        //                                #endregion
+        //                            }
+        //                        );
+
+        //        Stocks.ItemsSource = loadedStocks;
+        //    }
+        //    catch (Exception ex)
         //    {
-        //        Dispatcher.Invoke(() =>
-        //        {
-        //            Notes.Text = t.Exception.InnerException.Message;
-        //        });
-        //    }, TaskContinuationOptions.OnlyOnFaulted);
-
-        //    processStocksTask.ContinueWith(_ =>
+        //        Notes.Text += ex.Message + Environment.NewLine;
+        //    }
+        //    finally
         //    {
+        //        cancellationTokenSource = null;
+        //    }
 
-        //        Dispatcher.Invoke(() =>
-        //        {
-        //            #region After stock data is loaded
-        //            StocksStatus.Text = $"Loaded stocks for {Ticker.Text} in {watch.ElapsedMilliseconds}ms, loaded {loadLinesTask.Result.Count} rows";
-        //            StockProgress.Visibility = Visibility.Hidden;
-        //            Search.Content = "Search";
-        //            #endregion
-        //        });
-        //    });
-
-        //    cancellationTokenSource = null;
-        //}
-        #endregion
-
-        #region Controlling the Continuations Execution Context
-        //private async void Search_Click(object sender, RoutedEventArgs e)
-        //{
-        //    var result = await GetStockFor(Ticker.Text);
-
-        //    Notes.Text += $"Stocks loaded!{Environment.NewLine}";
-        //}
-        //public async Task<IEnumerable<StockPrice>> GetStockFor(string ticker)
-        //{
-        //    var service = new StockService();
-
-        //    var stocks = await service.GetStockPricesFor(ticker, CancellationToken.None)
-        //        .ConfigureAwait(false);
-
-        //    return stocks.Take(5);
+        //    #region After stock data is loaded
+        //    StocksStatus.Text = $"Loaded stocks for {Ticker.Text} in {watch.ElapsedMilliseconds}ms";
+        //    StockProgress.Visibility = Visibility.Hidden;
+        //    Search.Content = "Search";
+        //    #endregion
         //}
         #endregion
 
@@ -421,6 +390,45 @@ namespace StockAnalyzer.Windows
             return loadLinesTask;
         }
 
+        #region Helpers
+        Random random = new Random();
+        private decimal CalculateExpensiveComputation(IEnumerable<StockPrice> stocks)
+        {
+            Thread.Yield();
+
+            var computedValue = 0m;
+
+            foreach (var stock in stocks)
+            {
+                for (int i = 0; i < stocks.Count() - 2; i++)
+                {
+                    for (int a = 0; a < random.Next(50, 60); a++)
+                    {
+                        computedValue += stocks.ElementAt(i).Change + stocks.ElementAt(i + 1).Change;
+                    }
+                }
+            }
+
+            return computedValue;
+        }
+
+        private decimal Compute(StockPrice stock)
+        {
+            Thread.Yield();
+
+            decimal x = 0;
+            for (var a = 0; a < 10; a++)
+            {
+                for (var b = 0; b < 20; b++)
+                {
+                    x += a + stock.Change;
+                }
+            }
+
+            return x;
+        }
+        #endregion
+
         private void Hyperlink_OnRequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
@@ -432,5 +440,11 @@ namespace StockAnalyzer.Windows
         {
             Application.Current.Shutdown();
         }
+    }
+
+    class StockCalculation
+    {
+        public string Ticker { get; set; }
+        public decimal Result { get; set; }
     }
 }
