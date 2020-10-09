@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xQf/X68htCllTs2ut0Ri88R63OVmIuHK1Ot0UuWDzhaipr/k4KUjuAPsGo/njCdtZ4sOIMG13M9GAIJUQXXM0g==",
+  "success": true,
+  "projectFilePath": "C:\\SideWork\\StockAnalyzerAsync\\StockAnalyzer.Windows.Core\\StockAnalyzer.Windows.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
