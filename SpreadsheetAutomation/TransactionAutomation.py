@@ -1,6 +1,7 @@
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 
+
 def process_workbook(filename):
     wb = xl.load_workbook(filename)
     ws = wb["Sheet1"]
@@ -18,5 +19,6 @@ def process_workbook(filename):
     ws.add_chart(chart, "E2")
 
     wb.save(filename)
+
 
 process_workbook("transactions.xlsx")
