@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "POAtZ6vk1FgoRYT+s3AFocFMTmuxrN8ZM2vP/YZltB2tSnIov6yV0fPzLgV6zK3z4fFO4vBIwUbv9bYni/+Exw==",
+  "success": true,
+  "projectFilePath": "C:\\SideWork\\Extensibility\\PersonRepository.Service\\PersonRepository.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
