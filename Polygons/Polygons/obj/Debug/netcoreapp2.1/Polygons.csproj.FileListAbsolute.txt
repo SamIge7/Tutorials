@@ -1,0 +1,15 @@
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.deps.json
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.runtimeconfig.json
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.runtimeconfig.dev.json
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.dll
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.pdb
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.Library.dll
+C:\SideWork\Polygons\Polygons\bin\Debug\netcoreapp2.1\Polygons.Library.pdb
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.csprojAssemblyReference.cache
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.AssemblyInfoInputs.cache
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.AssemblyInfo.cs
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.csproj.CoreCompileInputs.cache
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.csproj.CopyComplete
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.dll
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.pdb
+C:\SideWork\Polygons\Polygons\obj\Debug\netcoreapp2.1\Polygons.genruntimeconfig.cache
