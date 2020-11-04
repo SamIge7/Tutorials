@@ -1,0 +1,12 @@
+C:\SideWork\FutureProofing\People.Library\bin\Debug\netstandard2.0\People.Library.deps.json
+C:\SideWork\FutureProofing\People.Library\bin\Debug\netstandard2.0\People.Library.dll
+C:\SideWork\FutureProofing\People.Library\bin\Debug\netstandard2.0\People.Library.pdb
+C:\SideWork\FutureProofing\People.Library\bin\Debug\netstandard2.0\Common.dll
+C:\SideWork\FutureProofing\People.Library\bin\Debug\netstandard2.0\Common.pdb
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.csprojAssemblyReference.cache
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.AssemblyInfoInputs.cache
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.AssemblyInfo.cs
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.csproj.CoreCompileInputs.cache
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.csproj.CopyComplete
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.dll
+C:\SideWork\FutureProofing\People.Library\obj\Debug\netstandard2.0\People.Library.pdb
