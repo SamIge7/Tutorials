@@ -1,0 +1,12 @@
+C:\SideWork\Extensibility\PersonRepository.SQL\bin\Debug\netstandard2.0\PersonRepository.SQL.deps.json
+C:\SideWork\Extensibility\PersonRepository.SQL\bin\Debug\netstandard2.0\PersonRepository.SQL.dll
+C:\SideWork\Extensibility\PersonRepository.SQL\bin\Debug\netstandard2.0\PersonRepository.SQL.pdb
+C:\SideWork\Extensibility\PersonRepository.SQL\bin\Debug\netstandard2.0\PersonRepository.Interface.dll
+C:\SideWork\Extensibility\PersonRepository.SQL\bin\Debug\netstandard2.0\PersonRepository.Interface.pdb
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.csprojAssemblyReference.cache
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.AssemblyInfoInputs.cache
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.AssemblyInfo.cs
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.csproj.CoreCompileInputs.cache
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.csproj.CopyComplete
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.dll
+C:\SideWork\Extensibility\PersonRepository.SQL\obj\Debug\netstandard2.0\PersonRepository.SQL.pdb

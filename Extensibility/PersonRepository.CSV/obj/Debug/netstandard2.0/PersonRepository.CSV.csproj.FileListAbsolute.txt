@@ -1,0 +1,12 @@
+C:\SideWork\Extensibility\PersonRepository.CSV\bin\Debug\netstandard2.0\PersonRepository.CSV.deps.json
+C:\SideWork\Extensibility\PersonRepository.CSV\bin\Debug\netstandard2.0\PersonRepository.CSV.dll
+C:\SideWork\Extensibility\PersonRepository.CSV\bin\Debug\netstandard2.0\PersonRepository.CSV.pdb
+C:\SideWork\Extensibility\PersonRepository.CSV\bin\Debug\netstandard2.0\PersonRepository.Interface.dll
+C:\SideWork\Extensibility\PersonRepository.CSV\bin\Debug\netstandard2.0\PersonRepository.Interface.pdb
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.csprojAssemblyReference.cache
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.AssemblyInfoInputs.cache
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.AssemblyInfo.cs
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.csproj.CoreCompileInputs.cache
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.csproj.CopyComplete
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.dll
+C:\SideWork\Extensibility\PersonRepository.CSV\obj\Debug\netstandard2.0\PersonRepository.CSV.pdb
