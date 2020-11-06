@@ -1,0 +1,12 @@
+C:\SideWork\DynamicLoading\PersonRepository.Fake\bin\Debug\netstandard2.0\PersonRepository.Fake.deps.json
+C:\SideWork\DynamicLoading\PersonRepository.Fake\bin\Debug\netstandard2.0\PersonRepository.Fake.dll
+C:\SideWork\DynamicLoading\PersonRepository.Fake\bin\Debug\netstandard2.0\PersonRepository.Fake.pdb
+C:\SideWork\DynamicLoading\PersonRepository.Fake\bin\Debug\netstandard2.0\PersonRepository.Interface.dll
+C:\SideWork\DynamicLoading\PersonRepository.Fake\bin\Debug\netstandard2.0\PersonRepository.Interface.pdb
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.csprojAssemblyReference.cache
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.AssemblyInfoInputs.cache
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.AssemblyInfo.cs
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.csproj.CoreCompileInputs.cache
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.csproj.CopyComplete
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.dll
+C:\SideWork\DynamicLoading\PersonRepository.Fake\obj\Debug\netstandard2.0\PersonRepository.Fake.pdb
