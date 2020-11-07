@@ -1,0 +1,12 @@
+C:\SideWork\ExplicitImplementation\OddNumbers\bin\Debug\netcoreapp2.1\OddNumbers.deps.json
+C:\SideWork\ExplicitImplementation\OddNumbers\bin\Debug\netcoreapp2.1\OddNumbers.runtimeconfig.json
+C:\SideWork\ExplicitImplementation\OddNumbers\bin\Debug\netcoreapp2.1\OddNumbers.runtimeconfig.dev.json
+C:\SideWork\ExplicitImplementation\OddNumbers\bin\Debug\netcoreapp2.1\OddNumbers.dll
+C:\SideWork\ExplicitImplementation\OddNumbers\bin\Debug\netcoreapp2.1\OddNumbers.pdb
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.csprojAssemblyReference.cache
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.AssemblyInfoInputs.cache
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.AssemblyInfo.cs
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.csproj.CoreCompileInputs.cache
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.dll
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.pdb
+C:\SideWork\ExplicitImplementation\OddNumbers\obj\Debug\netcoreapp2.1\OddNumbers.genruntimeconfig.cache
