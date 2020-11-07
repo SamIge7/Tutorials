@@ -1,0 +1,12 @@
+C:\SideWork\LooseCoupling\PersonRepository.Caching\bin\Debug\netstandard2.0\PersonRepository.Caching.deps.json
+C:\SideWork\LooseCoupling\PersonRepository.Caching\bin\Debug\netstandard2.0\PersonRepository.Caching.dll
+C:\SideWork\LooseCoupling\PersonRepository.Caching\bin\Debug\netstandard2.0\PersonRepository.Caching.pdb
+C:\SideWork\LooseCoupling\PersonRepository.Caching\bin\Debug\netstandard2.0\Common.dll
+C:\SideWork\LooseCoupling\PersonRepository.Caching\bin\Debug\netstandard2.0\Common.pdb
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.csprojAssemblyReference.cache
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.AssemblyInfoInputs.cache
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.AssemblyInfo.cs
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.csproj.CoreCompileInputs.cache
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.csproj.CopyComplete
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.dll
+C:\SideWork\LooseCoupling\PersonRepository.Caching\obj\Debug\netstandard2.0\PersonRepository.Caching.pdb

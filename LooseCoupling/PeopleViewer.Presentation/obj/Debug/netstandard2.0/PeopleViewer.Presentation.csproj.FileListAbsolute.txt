@@ -1,0 +1,14 @@
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Presentation.deps.json
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Presentation.dll
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Presentation.pdb
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\Common.dll
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PersonRepository.Service.dll
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\Common.pdb
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PersonRepository.Service.pdb
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.csprojAssemblyReference.cache
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.AssemblyInfoInputs.cache
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.AssemblyInfo.cs
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.csproj.CoreCompileInputs.cache
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.csproj.CopyComplete
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.dll
+C:\SideWork\LooseCoupling\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.pdb

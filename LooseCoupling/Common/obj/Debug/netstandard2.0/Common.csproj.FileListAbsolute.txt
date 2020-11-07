@@ -1,0 +1,9 @@
+C:\SideWork\LooseCoupling\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\SideWork\LooseCoupling\Common\bin\Debug\netstandard2.0\Common.dll
+C:\SideWork\LooseCoupling\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\SideWork\LooseCoupling\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\SideWork\LooseCoupling\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\SideWork\LooseCoupling\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\SideWork\LooseCoupling\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\SideWork\LooseCoupling\Common\obj\Debug\netstandard2.0\Common.dll
+C:\SideWork\LooseCoupling\Common\obj\Debug\netstandard2.0\Common.pdb

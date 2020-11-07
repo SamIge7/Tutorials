@@ -1,0 +1,12 @@
+C:\SideWork\LooseCoupling\PersonRepository.Service\bin\Debug\netstandard2.0\PersonRepository.Service.deps.json
+C:\SideWork\LooseCoupling\PersonRepository.Service\bin\Debug\netstandard2.0\PersonRepository.Service.dll
+C:\SideWork\LooseCoupling\PersonRepository.Service\bin\Debug\netstandard2.0\PersonRepository.Service.pdb
+C:\SideWork\LooseCoupling\PersonRepository.Service\bin\Debug\netstandard2.0\Common.dll
+C:\SideWork\LooseCoupling\PersonRepository.Service\bin\Debug\netstandard2.0\Common.pdb
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.csprojAssemblyReference.cache
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.AssemblyInfoInputs.cache
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.AssemblyInfo.cs
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.csproj.CoreCompileInputs.cache
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.csproj.CopyComplete
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.dll
+C:\SideWork\LooseCoupling\PersonRepository.Service\obj\Debug\netstandard2.0\PersonRepository.Service.pdb
