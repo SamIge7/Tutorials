@@ -1,0 +1,9 @@
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\bin\Debug\netstandard2.0\ExtensionMethods.Contracts.deps.json
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\bin\Debug\netstandard2.0\ExtensionMethods.Contracts.dll
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\bin\Debug\netstandard2.0\ExtensionMethods.Contracts.pdb
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\obj\Debug\netstandard2.0\ExtensionMethods.Contracts.csprojAssemblyReference.cache
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\obj\Debug\netstandard2.0\ExtensionMethods.Contracts.AssemblyInfoInputs.cache
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\obj\Debug\netstandard2.0\ExtensionMethods.Contracts.AssemblyInfo.cs
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\obj\Debug\netstandard2.0\ExtensionMethods.Contracts.csproj.CoreCompileInputs.cache
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\obj\Debug\netstandard2.0\ExtensionMethods.Contracts.dll
+C:\SideWork\ExtensionMethods\ExtensionMethods.Contracts\obj\Debug\netstandard2.0\ExtensionMethods.Contracts.pdb

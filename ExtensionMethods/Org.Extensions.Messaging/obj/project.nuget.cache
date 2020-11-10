@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "12dLYtFTDvBwzcR84yEms5h23vBToZWgjuBcdDnO4KwA10xt8P/JvRelTOIYR5uCrgZ5zJh9TRbmNhiDioCrZA==",
+  "success": true,
+  "projectFilePath": "C:\\SideWork\\ExtensionMethods\\Org.Extensions.Messaging\\Org.Extensions.Messaging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4uNMr6HEQ194qo4go8s5+UP6lVDwcWcvgglJb09zbiFpkk5Rwup6g9gW2Z3EO/qy8xfFHNB6LT7a9I5gI9UNjA==",
+  "success": true,
+  "projectFilePath": "C:\\SideWork\\ExtensionMethods\\ExtensionMethods.Shared\\ExtensionMethods.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+C:\SideWork\ExtensionMethods\Org.Messaging\bin\Debug\netstandard2.0\Org.Messaging.deps.json
+C:\SideWork\ExtensionMethods\Org.Messaging\bin\Debug\netstandard2.0\Org.Messaging.dll
+C:\SideWork\ExtensionMethods\Org.Messaging\bin\Debug\netstandard2.0\Org.Messaging.pdb
+C:\SideWork\ExtensionMethods\Org.Messaging\obj\Debug\netstandard2.0\Org.Messaging.csprojAssemblyReference.cache
+C:\SideWork\ExtensionMethods\Org.Messaging\obj\Debug\netstandard2.0\Org.Messaging.AssemblyInfoInputs.cache
+C:\SideWork\ExtensionMethods\Org.Messaging\obj\Debug\netstandard2.0\Org.Messaging.AssemblyInfo.cs
+C:\SideWork\ExtensionMethods\Org.Messaging\obj\Debug\netstandard2.0\Org.Messaging.csproj.CoreCompileInputs.cache
+C:\SideWork\ExtensionMethods\Org.Messaging\obj\Debug\netstandard2.0\Org.Messaging.dll
+C:\SideWork\ExtensionMethods\Org.Messaging\obj\Debug\netstandard2.0\Org.Messaging.pdb

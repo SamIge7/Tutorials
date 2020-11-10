@@ -1,0 +1,9 @@
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\bin\Debug\netstandard2.0\ExtensionMethods.Shared.deps.json
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\bin\Debug\netstandard2.0\ExtensionMethods.Shared.dll
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\bin\Debug\netstandard2.0\ExtensionMethods.Shared.pdb
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\obj\Debug\netstandard2.0\ExtensionMethods.Shared.csprojAssemblyReference.cache
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\obj\Debug\netstandard2.0\ExtensionMethods.Shared.AssemblyInfoInputs.cache
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\obj\Debug\netstandard2.0\ExtensionMethods.Shared.AssemblyInfo.cs
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\obj\Debug\netstandard2.0\ExtensionMethods.Shared.csproj.CoreCompileInputs.cache
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\obj\Debug\netstandard2.0\ExtensionMethods.Shared.dll
+C:\SideWork\ExtensionMethods\ExtensionMethods.Shared\obj\Debug\netstandard2.0\ExtensionMethods.Shared.pdb

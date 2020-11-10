@@ -1,0 +1,12 @@
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\bin\Debug\netstandard2.0\Org.Extensions.Messaging.deps.json
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\bin\Debug\netstandard2.0\Org.Extensions.Messaging.dll
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\bin\Debug\netstandard2.0\Org.Extensions.Messaging.pdb
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\bin\Debug\netstandard2.0\Org.Messaging.dll
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\bin\Debug\netstandard2.0\Org.Messaging.pdb
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.csprojAssemblyReference.cache
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.AssemblyInfoInputs.cache
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.AssemblyInfo.cs
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.csproj.CoreCompileInputs.cache
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.csproj.CopyComplete
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.dll
+C:\SideWork\ExtensionMethods\Org.Extensions.Messaging\obj\Debug\netstandard2.0\Org.Extensions.Messaging.pdb

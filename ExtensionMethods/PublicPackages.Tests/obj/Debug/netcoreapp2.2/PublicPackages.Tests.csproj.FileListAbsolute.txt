@@ -1,0 +1,15 @@
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\PublicPackages.Tests.deps.json
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\PublicPackages.Tests.runtimeconfig.json
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\PublicPackages.Tests.runtimeconfig.dev.json
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\PublicPackages.Tests.dll
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.csprojAssemblyReference.cache
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.AssemblyInfoInputs.cache
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.AssemblyInfo.cs
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.genruntimeconfig.cache
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\bin\Debug\netcoreapp2.2\PublicPackages.Tests.pdb
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.csproj.CoreCompileInputs.cache
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.dll
+C:\SideWork\ExtensionMethods\PublicPackages.Tests\obj\Debug\netcoreapp2.2\PublicPackages.Tests.pdb
