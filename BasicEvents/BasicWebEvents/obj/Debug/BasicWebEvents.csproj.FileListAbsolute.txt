@@ -1,0 +1,12 @@
+C:\Users\Dan\Desktop\Code\Before\BasicWebEvents\BasicWebEvents\bin\BasicWebEvents.dll
+C:\Users\Dan\Desktop\Code\Before\BasicWebEvents\BasicWebEvents\bin\BasicWebEvents.pdb
+C:\Users\Dan\Desktop\Code\Before\BasicWebEvents\BasicWebEvents\obj\Debug\BasicWebEvents.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Desktop\Code\Before\BasicWebEvents\BasicWebEvents\obj\Debug\BasicWebEvents.dll
+C:\Users\Dan\Desktop\Code\Before\BasicWebEvents\BasicWebEvents\obj\Debug\BasicWebEvents.pdb
+C:\SideWork\BasicEvents\BasicWebEvents\bin\BasicWebEvents.dll.config
+C:\SideWork\BasicEvents\BasicWebEvents\bin\BasicWebEvents.dll
+C:\SideWork\BasicEvents\BasicWebEvents\bin\BasicWebEvents.pdb
+C:\SideWork\BasicEvents\BasicWebEvents\obj\Debug\BasicWebEvents.csprojAssemblyReference.cache
+C:\SideWork\BasicEvents\BasicWebEvents\obj\Debug\BasicWebEvents.csproj.CoreCompileInputs.cache
+C:\SideWork\BasicEvents\BasicWebEvents\obj\Debug\BasicWebEvents.dll
+C:\SideWork\BasicEvents\BasicWebEvents\obj\Debug\BasicWebEvents.pdb
