@@ -1,0 +1,12 @@
+C:\Users\Dan\Desktop\Code\Before\LambdasAndDelegates\LambdasAndDelegates\bin\Debug\LambdasAndDelegates.exe.config
+C:\Users\Dan\Desktop\Code\Before\LambdasAndDelegates\LambdasAndDelegates\bin\Debug\LambdasAndDelegates.exe
+C:\Users\Dan\Desktop\Code\Before\LambdasAndDelegates\LambdasAndDelegates\bin\Debug\LambdasAndDelegates.pdb
+C:\Users\Dan\Desktop\Code\Before\LambdasAndDelegates\LambdasAndDelegates\obj\Debug\LambdasAndDelegates.exe
+C:\Users\Dan\Desktop\Code\Before\LambdasAndDelegates\LambdasAndDelegates\obj\Debug\LambdasAndDelegates.pdb
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\bin\Debug\LambdasAndDelegates.exe.config
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\bin\Debug\LambdasAndDelegates.exe
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\bin\Debug\LambdasAndDelegates.pdb
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\obj\Debug\LambdasAndDelegates.csprojAssemblyReference.cache
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\obj\Debug\LambdasAndDelegates.csproj.CoreCompileInputs.cache
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\obj\Debug\LambdasAndDelegates.exe
+C:\SideWork\LambdasAndDelegates\LambdasAndDelegates\obj\Debug\LambdasAndDelegates.pdb
