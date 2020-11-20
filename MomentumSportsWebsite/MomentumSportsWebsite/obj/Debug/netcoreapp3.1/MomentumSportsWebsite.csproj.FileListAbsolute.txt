@@ -35,3 +35,4 @@ C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.pdb
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.genruntimeconfig.cache
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.csproj.CopyComplete
+C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\Razor\Views\AboutUs\Index.cshtml.g.cs

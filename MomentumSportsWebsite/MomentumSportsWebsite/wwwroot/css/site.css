@@ -24,6 +24,12 @@ a {
   border-color: #1861ac;
 }
 
+.display-4 {
+    font-style:italic;
+    font-weight:bold;
+    color:royalblue;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -51,6 +57,13 @@ button.accept-policy {
   line-height: inherit;
 }
 
+.mainbody {
+    display:block;
+    background: #fdf7f4;
+    border: 6px solid #ddc3b6;
+    -webkit-border-radius: 25px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -59,8 +72,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url(../images/backgroundimage.jpg)
 }
 .footer {
   position: absolute;
