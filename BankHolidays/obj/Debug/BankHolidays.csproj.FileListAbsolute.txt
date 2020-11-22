@@ -1,0 +1,7 @@
+C:\SideWork\BankHolidays\bin\Debug\BankHolidays.exe.config
+C:\SideWork\BankHolidays\bin\Debug\BankHolidays.exe
+C:\SideWork\BankHolidays\bin\Debug\BankHolidays.pdb
+C:\SideWork\BankHolidays\obj\Debug\BankHolidays.csprojAssemblyReference.cache
+C:\SideWork\BankHolidays\obj\Debug\BankHolidays.csproj.CoreCompileInputs.cache
+C:\SideWork\BankHolidays\obj\Debug\BankHolidays.exe
+C:\SideWork\BankHolidays\obj\Debug\BankHolidays.pdb
