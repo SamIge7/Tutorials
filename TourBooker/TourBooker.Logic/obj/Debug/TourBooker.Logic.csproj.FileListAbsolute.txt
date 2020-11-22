@@ -1,0 +1,6 @@
+C:\SideWork\TourBooker\TourBooker.Logic\bin\Debug\TourBooker.Logic.dll
+C:\SideWork\TourBooker\TourBooker.Logic\bin\Debug\TourBooker.Logic.pdb
+C:\SideWork\TourBooker\TourBooker.Logic\obj\Debug\TourBooker.Logic.csprojAssemblyReference.cache
+C:\SideWork\TourBooker\TourBooker.Logic\obj\Debug\TourBooker.Logic.csproj.CoreCompileInputs.cache
+C:\SideWork\TourBooker\TourBooker.Logic\obj\Debug\TourBooker.Logic.dll
+C:\SideWork\TourBooker\TourBooker.Logic\obj\Debug\TourBooker.Logic.pdb

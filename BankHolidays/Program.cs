@@ -11,7 +11,7 @@ namespace BankHolidays
 		static void Main(string[] args)
 		{
 
-			DateTime[] bankHols1 =
+			List<DateTime> bankHolsLst = new List<DateTime>
 			{
 				new DateTime(2021, 1, 1),
 				new DateTime(2021, 4, 2),
