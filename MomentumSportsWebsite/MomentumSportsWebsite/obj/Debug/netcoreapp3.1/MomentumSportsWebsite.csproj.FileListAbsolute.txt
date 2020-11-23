@@ -9,7 +9,6 @@ C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\bin\Debug\netcoreapp3.1\
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\bin\Debug\netcoreapp3.1\MomentumSportsWebsite.pdb
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\bin\Debug\netcoreapp3.1\MomentumSportsWebsite.Views.dll
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\bin\Debug\netcoreapp3.1\MomentumSportsWebsite.Views.pdb
-C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.csprojAssemblyReference.cache
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.AssemblyInfoInputs.cache
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.AssemblyInfo.cs
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.csproj.CoreCompileInputs.cache
@@ -19,6 +18,7 @@ C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.TagHelpers.input.cache
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.TagHelpers.output.cache
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.RazorCoreGenerate.cache
+C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\Razor\Views\AboutUs\Index.cshtml.g.cs
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -35,4 +35,4 @@ C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.pdb
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.genruntimeconfig.cache
 C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.csproj.CopyComplete
-C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\Razor\Views\AboutUs\Index.cshtml.g.cs
+C:\SideWork\MomentumSportsWebsite\MomentumSportsWebsite\obj\Debug\netcoreapp3.1\MomentumSportsWebsite.csprojAssemblyReference.cache
