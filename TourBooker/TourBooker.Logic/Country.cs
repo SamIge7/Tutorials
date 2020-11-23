@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TourBooker.Logic;
 
 namespace Pluralsight.AdvCShColls.TourBooker.Logic
 {
@@ -13,6 +12,7 @@ namespace Pluralsight.AdvCShColls.TourBooker.Logic
 		public CountryCode Code { get; }
 		public string Region { get; }
 		public int Population { get; }
+
 		public Country(string name, string code, string region, int population)
 		{
 			this.Name = name;
@@ -20,6 +20,7 @@ namespace Pluralsight.AdvCShColls.TourBooker.Logic
 			this.Region = region;
 			this.Population = population;
 		}
+
         public override string ToString() => $"{Name} ({Code})";
     }
 }
