@@ -37,7 +37,14 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 		private void UpdateAllLists()
 		{
 			this.lbxItinerary.Items.Refresh();
+			this.lbxToursToBook.Items.Refresh();
+			this.lbxConfirmedBookedTours.Items.Refresh();
+			this.lbxRequests.Items.Refresh();
+			//			this.lbxRequests.ItemsSource = AllData.BookingRequests.ToList();
+			this.lbxRequests.Items.Refresh();
+			this.tbxNextBookingRequest.Text = GetLatestBookingRequestText();
 		}
+
 
 		private void btnAddToItinerary_Click(object sender, RoutedEventArgs e)
 		{
@@ -47,9 +54,10 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 
 			Country selectedCountry = AllData.AllCountries[selectedIndex];
 			AllData.ItineraryBuilder.AddLast(selectedCountry);
-			var change = new ItineraryChange(ChangeType.Append, AllData.ItineraryBuilder.Count, selectedCountry);
+			var change = new ItineraryChange(
+				ChangeType.Append, AllData.ItineraryBuilder.Count, selectedCountry);
 			AllData.ChangeLog.Push(change);
-			
+
 			this.UpdateAllLists();
 		}
 
@@ -61,7 +69,8 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 
 			var nodeToRemove = AllData.ItineraryBuilder.GetNthNode(selectedItinIndex);
 			AllData.ItineraryBuilder.Remove(nodeToRemove);
-			var change = new ItineraryChange(ChangeType.Remove, selectedItinIndex, nodeToRemove.Value);
+			var change = new ItineraryChange(
+				ChangeType.Remove, selectedItinIndex, nodeToRemove.Value);
 			AllData.ChangeLog.Push(change);
 
 			this.UpdateAllLists();
@@ -81,7 +90,8 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 
 			var insertBeforeNode = AllData.ItineraryBuilder.GetNthNode(selectedItinIndex);
 			AllData.ItineraryBuilder.AddBefore(insertBeforeNode, selectedCountry);
-			var change = new ItineraryChange(ChangeType.Insert, selectedItinIndex, selectedCountry);
+			var change = new ItineraryChange(
+				ChangeType.Insert, selectedItinIndex, selectedCountry);
 			AllData.ChangeLog.Push(change);
 
 			this.UpdateAllLists();
@@ -110,13 +120,90 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 			MessageBox.Show("Tour added", "Success");
 		}
 
-        private void btnUndo_Click(object sender, RoutedEventArgs e)
-        {
+		private void btnUndo_Click(object sender, RoutedEventArgs e)
+		{
 			if (AllData.ChangeLog.Count == 0)
 				return;
+
 			ItineraryChange lastChange = AllData.ChangeLog.Pop();
 			ChangeUndoer.Undo(AllData.ItineraryBuilder, lastChange);
 			this.UpdateAllLists();
-        }
-    }
+		}
+
+		List<Tour> GetRequestedTours() => this.lbxToursToBook.SelectedItems.Cast<Tour>().ToList();
+
+		private void lbxToursToBook_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+			List<Tour> selectedTours = GetRequestedTours();
+			StringBuilder sb = new StringBuilder();
+
+			foreach (Tour tour in selectedTours)
+			{
+				sb.AppendLine($"{tour.Name}:");
+				foreach (Country country in tour.Itinerary)
+					sb.AppendLine($"   {country.Name}");
+				sb.AppendLine();
+
+			}
+			this.tbxToursItinerary.Text = sb.ToString();
+		}
+		private async void btnBookTour_Click(object sender, RoutedEventArgs e)
+		{
+			Customer customer = this.lbxCustomer.SelectedItem as Customer;
+			if (customer == null)
+			{
+				MessageBox.Show("You must select which customer you are!");
+				return;
+			}
+
+			List<Tour> requestedTours = GetRequestedTours();
+			if (requestedTours.Count == 0)
+			{
+				MessageBox.Show("You must select a tour to book!", "No tour selected");
+				return;
+			}
+
+			List<Task> tasks = new List<Task>();
+			foreach (Tour tour in requestedTours)
+			{
+				Task task = Task.Run(
+				() => this.AllData.BookingRequests.Enqueue((customer, tour)));
+				tasks.Add(task);
+			}
+			await Task.WhenAll(tasks);
+
+			MessageBox.Show($"{requestedTours.Count} tours requested", "Tours requested");
+			this.UpdateAllLists();
+		}
+
+		private void btnApproveRequest_Click(object sender, RoutedEventArgs e)
+		{
+			//if (AllData.BookingRequests.Count == 0)
+			//	return;
+
+			//var request = AllData.BookingRequests.Dequeue();
+			bool success = AllData.BookingRequests.TryDequeue(out var request);
+			if (success)
+            {
+				request.TheCustomer.BookedTours.Add(request.TheTour);
+				this.UpdateAllLists();
+			}
+		}
+
+		private string GetLatestBookingRequestText()
+		{
+			//if (AllData.BookingRequests.Count == 0)
+			//	return null;
+			//else
+			//	return AllData.BookingRequests.Peek().ToString();
+			bool success = AllData.BookingRequests.TryPeek(out var request);
+			return success ? request.ToString() : null;
+		}
+
+		private void lbxCustomer_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+			Customer customer = this.lbxCustomer.SelectedItem as Customer;
+			this.gbxBookedTours.DataContext = customer;
+		}
+	}
 }
