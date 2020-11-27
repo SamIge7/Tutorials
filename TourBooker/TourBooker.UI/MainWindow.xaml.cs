@@ -40,7 +40,14 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 			this.lbxToursToBook.Items.Refresh();
 			this.lbxConfirmedBookedTours.Items.Refresh();
 			this.lbxRequests.Items.Refresh();
-			//			this.lbxRequests.ItemsSource = AllData.BookingRequests.ToList();
+			// Next statement is a workaround because WPF seems to have problems
+			// displaying the contents of a concurrent list.
+			// Unsure of the cause - most likely an issue with WPF.
+			// Realistically, in normal code you wouldn't normally be hooking a WPF listbox
+			// up to a concurrent queue anyway because of issues of concurrency and
+			// mixing backend data and UI - it's only done in this demo
+			// in order to provide an easy way to see what's in the collections.
+			this.lbxRequests.ItemsSource = AllData.BookingRequests.ToList();
 			this.lbxRequests.Items.Refresh();
 			this.tbxNextBookingRequest.Text = GetLatestBookingRequestText();
 		}
@@ -130,7 +137,8 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 			this.UpdateAllLists();
 		}
 
-		List<Tour> GetRequestedTours() => this.lbxToursToBook.SelectedItems.Cast<Tour>().ToList();
+	List<Tour> GetRequestedTours() 
+			=> this.lbxToursToBook.SelectedItems.Cast<Tour>().ToList();
 
 		private void lbxToursToBook_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
@@ -146,6 +154,7 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 
 			}
 			this.tbxToursItinerary.Text = sb.ToString();
+			this.lbxCountriesInSelection.ItemsSource = GetCountriesInSelection();
 		}
 		private async void btnBookTour_Click(object sender, RoutedEventArgs e)
 		{
@@ -167,7 +176,7 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 			foreach (Tour tour in requestedTours)
 			{
 				Task task = Task.Run(
-				() => this.AllData.BookingRequests.Enqueue((customer, tour)));
+					()=>this.AllData.BookingRequests.Enqueue((customer, tour)));
 				tasks.Add(task);
 			}
 			await Task.WhenAll(tasks);
@@ -184,7 +193,7 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 			//var request = AllData.BookingRequests.Dequeue();
 			bool success = AllData.BookingRequests.TryDequeue(out var request);
 			if (success)
-            {
+			{
 				request.TheCustomer.BookedTours.Add(request.TheTour);
 				this.UpdateAllLists();
 			}
@@ -199,11 +208,33 @@ namespace Pluralsight.AdvCShColls.TourBooker.UI
 			bool success = AllData.BookingRequests.TryPeek(out var request);
 			return success ? request.ToString() : null;
 		}
-
+		
 		private void lbxCustomer_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
 			Customer customer = this.lbxCustomer.SelectedItem as Customer;
 			this.gbxBookedTours.DataContext = customer;
+		}
+
+
+		private SortedSet<Country> GetCountriesInSelection()
+		{
+			List<Tour> selectedTours = GetRequestedTours();
+			if (selectedTours.Count == 0)
+				return new SortedSet<Country>(CountryNameComparer.Instance);
+
+			var allSets = new List<SortedSet<Country>>();
+			foreach (Tour tour in selectedTours)
+			{
+
+				SortedSet<Country> tourCountries = new SortedSet<Country>(
+					tour.Itinerary, CountryNameComparer.Instance);
+				allSets.Add(tourCountries);
+			}
+
+			SortedSet<Country> result = allSets[0];
+			for (int i = 1; i < allSets.Count; i++)
+				result.IntersectWith(allSets[i]);
+			return result;
 		}
 	}
 }
