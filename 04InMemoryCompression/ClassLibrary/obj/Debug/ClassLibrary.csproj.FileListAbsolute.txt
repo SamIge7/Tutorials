@@ -1,0 +1,6 @@
+C:\Tutorials\04InMemoryCompression\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Tutorials\04InMemoryCompression\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Tutorials\04InMemoryCompression\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Tutorials\04InMemoryCompression\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Tutorials\04InMemoryCompression\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Tutorials\04InMemoryCompression\ClassLibrary\obj\Debug\ClassLibrary.pdb
