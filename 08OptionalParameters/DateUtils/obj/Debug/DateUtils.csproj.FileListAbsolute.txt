@@ -1,0 +1,6 @@
+C:\Tutorials\08OptionalParameters\DateUtils\bin\Debug\DateUtils.dll
+C:\Tutorials\08OptionalParameters\DateUtils\bin\Debug\DateUtils.pdb
+C:\Tutorials\08OptionalParameters\DateUtils\obj\Debug\DateUtils.csprojAssemblyReference.cache
+C:\Tutorials\08OptionalParameters\DateUtils\obj\Debug\DateUtils.csproj.CoreCompileInputs.cache
+C:\Tutorials\08OptionalParameters\DateUtils\obj\Debug\DateUtils.dll
+C:\Tutorials\08OptionalParameters\DateUtils\obj\Debug\DateUtils.pdb
