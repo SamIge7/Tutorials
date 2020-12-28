@@ -1,0 +1,7 @@
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\bin\Debug\GuidGeneratorConsoleApp.exe.config
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\bin\Debug\GuidGeneratorConsoleApp.exe
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\bin\Debug\GuidGeneratorConsoleApp.pdb
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\obj\Debug\GuidGeneratorConsoleApp.csprojAssemblyReference.cache
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\obj\Debug\GuidGeneratorConsoleApp.csproj.CoreCompileInputs.cache
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\obj\Debug\GuidGeneratorConsoleApp.exe
+C:\Tutorials\08ProgramOutput\GuidGeneratorConsoleApp\obj\Debug\GuidGeneratorConsoleApp.pdb
