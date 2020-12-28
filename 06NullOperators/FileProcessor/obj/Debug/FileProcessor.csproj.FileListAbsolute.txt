@@ -1,0 +1,11 @@
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\AgesExtra.txt
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\Ages.txt
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\NamesExtra.txt
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\Names.txt
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\FileProcessor.exe.config
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\FileProcessor.exe
+C:\Tutorials\06NullOperators\FileProcessor\bin\Debug\FileProcessor.pdb
+C:\Tutorials\06NullOperators\FileProcessor\obj\Debug\FileProcessor.csprojAssemblyReference.cache
+C:\Tutorials\06NullOperators\FileProcessor\obj\Debug\FileProcessor.csproj.CoreCompileInputs.cache
+C:\Tutorials\06NullOperators\FileProcessor\obj\Debug\FileProcessor.exe
+C:\Tutorials\06NullOperators\FileProcessor\obj\Debug\FileProcessor.pdb

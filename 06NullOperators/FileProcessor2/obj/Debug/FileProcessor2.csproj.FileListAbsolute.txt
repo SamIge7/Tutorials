@@ -1,0 +1,9 @@
+C:\Tutorials\06NullOperators\FileProcessor2\bin\Debug\Ages.txt
+C:\Tutorials\06NullOperators\FileProcessor2\bin\Debug\Names.txt
+C:\Tutorials\06NullOperators\FileProcessor2\bin\Debug\FileProcessor2.exe.config
+C:\Tutorials\06NullOperators\FileProcessor2\bin\Debug\FileProcessor2.exe
+C:\Tutorials\06NullOperators\FileProcessor2\bin\Debug\FileProcessor2.pdb
+C:\Tutorials\06NullOperators\FileProcessor2\obj\Debug\FileProcessor2.csprojAssemblyReference.cache
+C:\Tutorials\06NullOperators\FileProcessor2\obj\Debug\FileProcessor2.csproj.CoreCompileInputs.cache
+C:\Tutorials\06NullOperators\FileProcessor2\obj\Debug\FileProcessor2.exe
+C:\Tutorials\06NullOperators\FileProcessor2\obj\Debug\FileProcessor2.pdb

@@ -1,0 +1,6 @@
+C:\Tutorials\06NullOperators\Model\bin\Debug\Model.dll
+C:\Tutorials\06NullOperators\Model\bin\Debug\Model.pdb
+C:\Tutorials\06NullOperators\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Tutorials\06NullOperators\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Tutorials\06NullOperators\Model\obj\Debug\Model.dll
+C:\Tutorials\06NullOperators\Model\obj\Debug\Model.pdb

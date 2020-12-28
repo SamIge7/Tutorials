@@ -1,0 +1,17 @@
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\Model.Tests.dll
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\Model.Tests.pdb
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\Model.dll
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.abstractions.dll
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.assert.dll
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.core.dll
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\Model.pdb
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.abstractions.xml
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.assert.xml
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.core.xml
+C:\Tutorials\06NullOperators\Model.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Tutorials\06NullOperators\Model.Tests\obj\Debug\Model.Tests.csprojAssemblyReference.cache
+C:\Tutorials\06NullOperators\Model.Tests\obj\Debug\Model.Tests.csproj.CoreCompileInputs.cache
+C:\Tutorials\06NullOperators\Model.Tests\obj\Debug\Model.Tests.csproj.CopyComplete
+C:\Tutorials\06NullOperators\Model.Tests\obj\Debug\Model.Tests.dll
+C:\Tutorials\06NullOperators\Model.Tests\obj\Debug\Model.Tests.pdb
