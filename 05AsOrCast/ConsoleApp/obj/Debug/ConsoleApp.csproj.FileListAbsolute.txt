@@ -1,0 +1,9 @@
+C:\Tutorials\05AsOrCast\ConsoleApp\bin\Debug\base64demo.html
+C:\Tutorials\05AsOrCast\ConsoleApp\bin\Debug\logo.png
+C:\Tutorials\05AsOrCast\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Tutorials\05AsOrCast\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Tutorials\05AsOrCast\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Tutorials\05AsOrCast\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Tutorials\05AsOrCast\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Tutorials\05AsOrCast\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Tutorials\05AsOrCast\ConsoleApp\obj\Debug\ConsoleApp.pdb
