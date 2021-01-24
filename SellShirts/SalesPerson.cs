@@ -29,17 +29,23 @@ namespace Pluralsight.ConcurrentCollections.SellShirts
 		public (bool ShirtsInStock, string Status) ServeCustomer(
 			StockController controller)
 		{
-			TShirt shirt = controller.SelectRandomShirt();
-			if (shirt == null)
+			var result = controller.SelectRandomShirt();
+			TShirt shirt = result.Tshirt;
+			if (result.Result == SelectResult.NoStockLeft)
 				return (false, "All shirts sold");
+			else if (result.Result == SelectResult.ChosenTShirtSold)
+				return (true, "Chosen Tshirt sold already");
 
 			Thread.Sleep(Rnd.NextInt(30));
 
 			// customer chooses to buy with only 20% probability
 			if (Rnd.TrueWithProb(0.2))
 			{
-				controller.Sell(shirt.Code);
-				return (true, $"Sold {shirt.Name}");
+				bool sold = controller.Sell(shirt.Code);
+				if (sold)
+					return (true, $"Sold {shirt.Name}");
+				else
+					return (false, $"Can't sell {shirt.Name}, it has already been sold");
 			}
 			return (true, null);
 		}

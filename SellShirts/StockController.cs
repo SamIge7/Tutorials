@@ -11,27 +11,33 @@ using System.Collections.ObjectModel;
 
 namespace Pluralsight.ConcurrentCollections.SellShirts
 {
+	public enum SelectResult { Success, NoStockLeft, ChosenTShirtSold}
 	public class StockController
 	{
-		private Dictionary<string, TShirt> _stock;
+		private ConcurrentDictionary<string, TShirt> _stock;
 
 		public StockController(IEnumerable<TShirt> shirts)
 		{
-			_stock = shirts.ToDictionary(x => x.Code);
+			_stock = new ConcurrentDictionary<string, TShirt>(shirts.ToDictionary(x => x.Code));
 		}
-		public void Sell(string code)
+		public bool Sell(string code)
 		{
-			_stock.Remove(code);
+			return _stock.TryRemove(code, out TShirt shirtRemoved);
 		}
-		public TShirt SelectRandomShirt()
+		public (SelectResult Result, TShirt Tshirt) SelectRandomShirt()
 		{
 			var keys = _stock.Keys.ToList();
 			if (keys.Count == 0)
-				return null;    // all shirts sold
+				return (SelectResult.NoStockLeft,null);    // all shirts sold
 
 			Thread.Sleep(Rnd.NextInt(10));
 			string selectedCode = keys[Rnd.NextInt(keys.Count)];
-			return _stock[selectedCode];
+			bool found = _stock.TryGetValue(selectedCode, out TShirt shirt);
+			if (found)
+				return (SelectResult.Success, shirt);
+			else
+				return (SelectResult.ChosenTShirtSold, null);
+			//return _stock[selectedCode];
 		}
 		public void DisplayStock()
 		{
