@@ -1,0 +1,13 @@
+C:\Tutorials\BuyAndSell\bin\Debug\netcoreapp3.1\BuyAndSell.exe
+C:\Tutorials\BuyAndSell\bin\Debug\netcoreapp3.1\BuyAndSell.deps.json
+C:\Tutorials\BuyAndSell\bin\Debug\netcoreapp3.1\BuyAndSell.runtimeconfig.json
+C:\Tutorials\BuyAndSell\bin\Debug\netcoreapp3.1\BuyAndSell.runtimeconfig.dev.json
+C:\Tutorials\BuyAndSell\bin\Debug\netcoreapp3.1\BuyAndSell.dll
+C:\Tutorials\BuyAndSell\bin\Debug\netcoreapp3.1\BuyAndSell.pdb
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.csprojAssemblyReference.cache
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.AssemblyInfoInputs.cache
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.AssemblyInfo.cs
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.csproj.CoreCompileInputs.cache
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.dll
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.pdb
+C:\Tutorials\BuyAndSell\obj\Debug\netcoreapp3.1\BuyAndSell.genruntimeconfig.cache
