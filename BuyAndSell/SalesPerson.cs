@@ -15,19 +15,19 @@ namespace Pluralsight.ConcurrentCollections.BuyAndSell
 		{
 			this.Name = name;
 		}
-		public void Work(TimeSpan workDay, StockController controller)
+		public void Work(TimeSpan workDay, StockController controller, LogTradesQueue bonusQueue)
 		{
 			DateTime start = DateTime.Now;
 			while (DateTime.Now - start < workDay)
 			{
-				string msg = ServeCustomer(controller);
+				string msg = ServeCustomer(controller, bonusQueue);
 				if (msg != null)
 					Console.WriteLine($"{Name}: {msg}");
 			}
 		}
-		public string ServeCustomer(StockController controller)
+		public string ServeCustomer(StockController controller, LogTradesQueue bonusQueue)
 		{
-			Thread.Sleep(Rnd.NextInt(5));
+			Thread.Sleep(Rnd.NextInt(20));
 			TShirt shirt = TShirtProvider.SelectRandomShirt();
 			string code = shirt.Code;
 
@@ -36,13 +36,19 @@ namespace Pluralsight.ConcurrentCollections.BuyAndSell
 			{
 				int quantity = Rnd.NextInt(9) + 1;
 				controller.BuyShirts(code, quantity);
+				bonusQueue.QueueTradeForLogging(
+					new Trade(this, shirt, TradeType.Purchase, quantity));
 				return $"Bought {quantity} of {shirt}";
 			}
 			else
 			{
 				bool success = controller.TrySellShirt(code);
 				if (success)
+				{
+					bonusQueue.QueueTradeForLogging(
+						new Trade(this, shirt, TradeType.Sale, 1));
 					return $"Sold {shirt}";
+				}
 				else
 					return $"Couldn't sell {shirt}: Out of stock";
 			}

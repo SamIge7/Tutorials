@@ -13,12 +13,14 @@ namespace Pluralsight.ConcurrentCollections.BuyAndSell
 {
 	public class StockController
 	{
-		private ConcurrentDictionary<string, int> _stock = new ConcurrentDictionary<string, int>();
+		private ConcurrentDictionary<string, int> _stock = 
+			new ConcurrentDictionary<string, int>();
 		int _totalQuantityBought;
 		int _totalQuantitySold;
 		public void BuyShirts(string code, int quantityToBuy)
 		{
-			_stock.AddOrUpdate(code, quantityToBuy, (key, oldValue) => oldValue + quantityToBuy);
+			_stock.AddOrUpdate(code, quantityToBuy,
+				(key, oldValue) => oldValue + quantityToBuy);
 			Interlocked.Add(ref _totalQuantityBought, quantityToBuy);
 		}
 

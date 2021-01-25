@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace Pluralsight.ConcurrentCollections.BuyAndSell
@@ -10,14 +11,35 @@ namespace Pluralsight.ConcurrentCollections.BuyAndSell
 		{
 			StockController controller = new StockController();
 			TimeSpan workDay = new TimeSpan(0, 0, 0, 0, 500);
+			StaffRecords staffLogs = new StaffRecords();
+			LogTradesQueue tradesQueue = new LogTradesQueue(staffLogs);
 
-			Task task1 = Task.Run(() => new SalesPerson("Tim").Work(workDay, controller));
-			Task task2 = Task.Run(() => new SalesPerson("Koffi").Work(workDay, controller));
-			Task task3 = Task.Run(() => new SalesPerson("Julie").Work(workDay, controller));
-			Task task4 = Task.Run(() => new SalesPerson("Michael").Work(workDay, controller));
+			SalesPerson[] staff =
+			{
+				new SalesPerson("Sahil"),
+				new SalesPerson("Julie"),
+				new SalesPerson("Kim"),
+				new SalesPerson("Chuck")
+			};
+			List<Task> salesTasks = new List<Task>();
+			foreach (SalesPerson person in staff)
+			{
+				salesTasks.Add(
+					Task.Run(() => person.Work(workDay, controller, tradesQueue)));
+			}
 
-			Task.WaitAll(task1, task2, task3, task4);
+			Task[] loggingTasks =
+			{
+				Task.Run(() => tradesQueue.MonitorAndLogTrades()),
+				Task.Run(() => tradesQueue.MonitorAndLogTrades())
+			};
+
+			Task.WaitAll(salesTasks.ToArray());
+			tradesQueue.SetNoMoreTrades();
+			Task.WaitAll(loggingTasks);
+
 			controller.DisplayStock();
+			staffLogs.DisplayCommissions(staff);
 		}
 	}
 }
