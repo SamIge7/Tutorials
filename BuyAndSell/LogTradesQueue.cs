@@ -9,38 +9,30 @@ namespace Pluralsight.ConcurrentCollections.BuyAndSell
 {
 	public class LogTradesQueue
 	{
-		private IProducerConsumerCollection<Trade> _tradesToLog = new ConcurrentQueue<Trade>();
+		private BlockingCollection<Trade> _tradesToLog = new BlockingCollection<Trade>();
 		private readonly StaffRecords _staffLogs;
-		private bool _workingDayComplete;
 		public LogTradesQueue(StaffRecords staffLogs)
 		{
 			_staffLogs = staffLogs;
 		}
-		public void SetNoMoreTrades() => _workingDayComplete = true;
+		public void SetNoMoreTrades() => _tradesToLog.CompleteAdding();
 		public void QueueTradeForLogging(Trade trade) => _tradesToLog.TryAdd(trade);
 
 		public void MonitorAndLogTrades()
 		{
 			while (true)
 			{
-				Trade nextTrade;
-				bool done = _tradesToLog.TryTake(out nextTrade);
-				if (done)
-				{
+                try
+                {
+					Trade nextTrade = _tradesToLog.Take();
 					_staffLogs.LogTrade(nextTrade);
-					Console.WriteLine(
-						$"Processing transaction from {nextTrade.Person.Name}");
-				}
-				else if (_workingDayComplete)
-				{
-					Console.WriteLine("No more sales to log - exiting");
+                    Console.WriteLine($"Processing trade from {nextTrade.Person.Name}");
+                }
+                catch (InvalidOperationException ex)
+                {
+                    Console.WriteLine(ex.Message);
 					return;
-				}
-				else
-				{
-					Console.WriteLine("No transactions available");
-					Thread.Sleep(500);
-				}
+                }
 			}
 		}
 	}
