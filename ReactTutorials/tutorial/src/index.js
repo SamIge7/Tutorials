@@ -1,12 +1,18 @@
-import React from 'react'
-import ReactDom from 'react-dom'
+import React from 'react';
+import ReactDom from 'react-dom';
+import './index.css';
 
 //stateless functional component
 //always return JSX
 
 function BookList() {
     return (
-        <section>
+        <section class='booklist'>
+            <Book />
+            <Book />
+            <Book />
+            <Book />
+            <Book />
             <Book />
         </section>
     )
