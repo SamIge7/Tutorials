@@ -27,3 +27,15 @@ C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.dll
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\ref\Catalog.dll
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.pdb
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\DnsClient.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\SharpCompress.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
