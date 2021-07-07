@@ -19,7 +19,6 @@ C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompi
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cs
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.MvcApplicationPartsAssemblyInfo.cache
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.Manifest.cache
-C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\staticwebassets\Catalog.StaticWebAssets.xml
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\scopedcss\bundle\Catalog.styles.css
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.RazorTargetAssemblyInfo.cache
 C:\Tutorials\REST API Tutorial\Catalog\obj\Debug\net5.0\Catalog.csproj.CopyComplete
@@ -39,3 +38,6 @@ C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\win\native\snap
 C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Tutorials\REST API Tutorial\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
