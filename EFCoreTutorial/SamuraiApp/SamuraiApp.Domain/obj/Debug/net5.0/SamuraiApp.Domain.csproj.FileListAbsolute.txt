@@ -1,0 +1,12 @@
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\bin\Debug\net5.0\SamuraiApp.Domain.deps.json
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\bin\Debug\net5.0\SamuraiApp.Domain.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\bin\Debug\net5.0\ref\SamuraiApp.Domain.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\bin\Debug\net5.0\SamuraiApp.Domain.pdb
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.csproj.AssemblyReference.cache
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.AssemblyInfoInputs.cache
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.AssemblyInfo.cs
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.csproj.CoreCompileInputs.cache
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\ref\SamuraiApp.Domain.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Domain\obj\Debug\net5.0\SamuraiApp.Domain.pdb

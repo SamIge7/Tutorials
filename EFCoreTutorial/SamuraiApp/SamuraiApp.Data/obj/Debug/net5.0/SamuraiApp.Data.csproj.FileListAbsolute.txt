@@ -1,0 +1,15 @@
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\bin\Debug\net5.0\SamuraiApp.Data.deps.json
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\bin\Debug\net5.0\SamuraiApp.Data.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\bin\Debug\net5.0\ref\SamuraiApp.Data.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\bin\Debug\net5.0\SamuraiApp.Data.pdb
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\bin\Debug\net5.0\SamuraiApp.Domain.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\bin\Debug\net5.0\SamuraiApp.Domain.pdb
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.csproj.AssemblyReference.cache
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.AssemblyInfoInputs.cache
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.AssemblyInfo.cs
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.csproj.CoreCompileInputs.cache
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.csproj.CopyComplete
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\ref\SamuraiApp.Data.dll
+C:\Tutorials\EFCoreTutorial\SamuraiApp\SamuraiApp.Data\obj\Debug\net5.0\SamuraiApp.Data.pdb
